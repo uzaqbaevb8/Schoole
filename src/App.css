@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  max-width: 1480px;
+}
+
+.logo-img {
+  display: flex;
+  margin-left: 100px;
+  background: red;
+}
+
