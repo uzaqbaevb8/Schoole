@@ -1,4 +1,4 @@
-import { Sun, Menu, ChevronDown, Globe, Languages, Search } from 'lucide-react'
+import { Sun, Menu, ChevronDown, Globe, Search } from 'lucide-react'
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './Header.css';
@@ -14,9 +14,7 @@ export const Header = () => {
                         <div className='logo-img'>
                             <img src='./public/logo.svg' className='logo_2'></img>
                         </div>
-                        <div className='logo-text'>
-                            <h1>40-mektep</h1>
-                        </div>
+                        <div className='logo-text'>40-mektep</div>
                     </div>
                     <nav className='nav-bar'>
                         <ul className='menu'>
@@ -48,11 +46,11 @@ export const Header = () => {
                             <Sun />
                         </div>
                         <div className='buttom-connect'>
-                            <img src='./public/connect.svg'></img>
+                            <p>Связаться с нами</p>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    </div >
+                </div >
+            </div >
+        </div >
     )
 }
