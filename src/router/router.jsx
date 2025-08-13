@@ -1,12 +1,12 @@
 import React from 'react'
 import { createBrowserRouter } from 'react-router-dom'
-import Layout from '../layout/layout'
-import Home from '../pages/Home'
-import Education from '../pages/education'
-import News from '../pages/News'
-import Rules from '../pages/Rules'
-import Support from '../pages/Support'
-import Training from '../pages/Training'
+import Layout from '../layout/Layout'
+import Home from '../pages/Home/Home'
+import Education from '../pages/Education/Education'
+import News from '../pages/News/News'
+import Rules from '../pages/Rules/Rules'
+import Support from '../pages/Support/Support'
+import Training from '../pages/Training/Training'
 
 export const router = createBrowserRouter([
     {

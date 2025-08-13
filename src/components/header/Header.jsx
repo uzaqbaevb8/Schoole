@@ -50,44 +50,6 @@ export const Header = () => {
                         </div>
                     </div >
                 </div >
-                <div className='section'>
-                    <div className='heading'>
-                        <h1>Добро
-                            пожаловать в
-                            нашу школу
-                        </h1>
-                        <p>Место, где знания
-                            встречаются с инновациями,
-                            а ученики готовятся к
-                            вызовам завтрашнего дня.
-                        </p>
-                    </div>
-                    <div className='section-img'>
-                        <p>Связаться с нами</p>
-                        <img src='./public/section_Link_SVG.svg' alt='section_img' />
-                    </div>
-                    <div className='section-link'>
-                        <p>Узнать больше</p>
-                    </div>
-                </div>
-                <div className='section-2'>
-                    <div className='heading-news'>
-                        <h1>Последние
-                            новости
-                        </h1>
-                    </div>
-                    <div className='heading-news-text'>
-                        <p>Смотреть все</p>
-                        <img src='./public/section_2 link button.svg' alt='section_img_2'/>
-                    </div>
-                    <div className='backgroungd-school_winners'>
-                        <img src='./public/school winners.png' alt='school_winners' />
-                        <div className='data'>
-                            <img src='' alt=''/>
-                            <p>5 мая 2025</p>
-                        </div>
-                    </div>
-                </div>
             </div >
         </div >
     )
