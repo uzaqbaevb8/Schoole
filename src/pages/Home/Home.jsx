@@ -62,7 +62,37 @@ const Home = () => {
                 новой современной компьютерной
                 лаборатории.
               </p>
+              <img src='./public/Link Читать далее.svg' alt='Link Читать далее.svg' />
             </div>
+          </div>
+          <div className='Parental_schedule'>
+            <div className='Parental_schedule_cards-item'>
+              <img src='./public/Parental schedule.png' alt='Panental schedule.png' />
+              <img src='./public/data-icons.svg' alt='data-icons.svg' className='data-icons' />
+              <p>15 апреля 2025</p>
+            </div>
+            <div className='Parental_schedule-paragrouph'>
+              <h1>Расписание родительских
+                собраний
+              </h1>
+              <p>Опубликовано расписание
+                предстоящих родительских собраний.
+              </p>
+              <img src='./public/Link Читать далее.svg' alt='Link Читать далее.svg' />
+            </div>
+          </div>
+        </div>
+        <div className='Quick_links'>
+          <div className='Quick_links-text'>
+            <h2>Быстрые ссылки</h2>
+          </div>
+          <div className='Quick_links-text-link'>
+            <img src="./public/Lesson schedule.svg" alt="Lesson schedule.svg" />
+            <p>Расписание уроков</p>
+          </div>
+          <div className='Quicl_links-text-link_School_documents'>
+            <img src="./public/School documents.svg" alt="School documents.svg" />
+            <p>Школьные документы</p>
           </div>
         </div>
       </div>

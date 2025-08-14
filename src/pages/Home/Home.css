@@ -1,192 +1,347 @@
-.main {
-    width: 368px;
-    height: 500px;
-    border-radius: 24px;
-    margin-left: 20px;
-    position: relative;
-    top: 48px;
-    background: #DBEAFE;
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
 }
 
-.main-text h1 {
-    display: flex;
-    width: 304px;
-    height: 135px;
-    font-size: 36px;
-    color: #2D3748;
-    margin-top: 80px;
-    position: relative;
-    top: 32px;
-    margin-bottom: 40px;
-    margin-left: 32px;
+.container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 20px 24px;
+    margin: 0 auto;
+    background: #F7FAFC;
 }
 
-.main-text p {
-    display: flex;
-    width: 288px;
-    height: 108px;
-    padding-top: 26px;
-    font-size: 20px;
-    line-height: 28px;
-    font-weight: 400;
-    margin-left: 32px;
-    color: #4B5563;
-}
+@media (max-width: 400px){
+    .main {
+        width: 368px;
+        height: 500px;
+        border-radius: 24px;
+        margin-left: 20px;
+        position: relative;
+        top: 48px;
+        background: #DBEAFE;
+    }
+    
+    .main-text h1 {
+        display: flex;
+        width: 304px;
+        height: 135px;
+        font-size: 36px;
+        color: #2D3748;
+        margin-top: 80px;
+        position: relative;
+        top: 32px;
+        margin-bottom: 40px;
+        margin-left: 32px;
+    }
+    
+    .main-text p {
+        display: flex;
+        width: 288px;
+        height: 108px;
+        padding-top: 26px;
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 400;
+        margin-left: 32px;
+        color: #4B5563;
+    }
+    
+    .main-text img {
+        width: 211px;
+        height: 44px;
+        margin-left: 32px;
+        margin-top: 64px;
+    }
+    
+    .main-link img {
+        width: 168.77px;
+        height: 44px;
+        margin-top: 16px;
+    }
+    
+    .section-cards {
+        background: #FFFFFF;
+        margin-left: 16px;
+        margin-right: 16px;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+    }
+    
+    .section-text h2 {
+        display: flex;
+        margin-top: 100px;
+        width: 137.78px;
+        height: 61px;
+        margin-left: 20px;
+    }
+    
+    .section-text img {
+        display: flex;
+        margin-left: 229.64px;
+        position: relative;
+        bottom: 55px;
+    }
+    
+    .section-cards-item img {
+        width: 367.5px;
+        height: 250px;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+    
+    .section-csrdas-data img {
+        width: 12px;
+        height: 12px;
+        margin-left: 41px;
+        margin-top: 28px;
+    }
+    
+    .section-csrdas-data p {
+        position: relative;
+        bottom: 20px;
+        width: 77.12px;
+        height: 20px;
+        margin-left: 57px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #6B7280;
+    }
+    
+    .section-cards-paragrouph h1 {
+        display: flex;
+        width: 240px;
+        height: 52px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #020817;
+        margin-left: 41px;
+    }
+    
+    .section-cards-paragrouph p {
+        display: flex;
+        width: 255.83px;
+        height: 61px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #64748B;
+        margin-left: 41px;
+        position: relative;
+        top: 10px;
+    }
+    
+    .section-cards-paragrouph img {
+        width: 116.88px;
+        height: 40px;
+        margin-left: 41px;
+        position: relative;
+        margin-top: 26px;
+        margin-bottom: 26px;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
+    
+    .computer_clasroom_cards-item img {
+        width: 368px;
+        height: 192px;
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+    }
+    
+    .computer_clasroom_cards-item .data-icons {
+        display: flex;
+        position: relative;
+        width: 12px;
+        height: 12px;
+        margin-left: 41px;
+        margin-top: 28px;
+    }
+    
+    .computer_clasroom_cards-item p {
+        position: relative;
+        bottom: 16px;
+        width: 108.31px;
+        height: 20px;
+        margin-left: 57px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #6B7280;
+    }
+    
+    .computer_classroom-paragrouph h1 {
+        display: flex;
+        width: 240px;
+        height: 52px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #020817;
+        margin-left: 41px;
+    }
+    
+    .computer_classroom-paragrouph p {
+        display: flex;
+        width: 255.83px;
+        height: 61px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #64748B;
+        margin-left: 41px;
+        position: relative;
+        margin-bottom: 30px;
+        top: 10px;
+    }
+    
+    .computer_classroom {
+        width: 368px;
+        height: 474px;
+        border-radius: 24px;
+        margin-left: 16px;
+        position: relative;
+        top: 48px;
+        background: #ffffff;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+    }
+    
+    .computer_classroom-paragrouph img {
+        width: 116.88px;
+        height: 40px;
+        margin-left: 41px;
+        position: relative;
+        margin-top: 12px;
+        margin-bottom: 26px;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
+    
+    .Parental_schedule_cards-item img {
+        width: 369px;
+        height: 192px;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        position: relative;
+    }
 
-.main-text img {
-    width: 211px;
-    height: 44px;
-    margin-left: 32px;
-    margin-top: 64px;
-}
+    .Parental_schedule_cards-item .data-icons {
+        display: flex;
+        position: relative;
+        width: 12px;
+        height: 12px;
+        margin-left: 41px;
+        margin-top: 28px;
+    }
+    
+    .Parental_schedule_cards-item p {
+        position: relative;
+        width: 108.31px;
+        height: 28px;
+        margin-left: 57px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #6B7280;
+        bottom: 16px;
+    }
 
-.main-link img {
-    width: 168.77px;
-    height: 44px;
-    margin-top: 16px;
-}
+    .Parental_schedule-paragrouph h1 {
+        display: flex;
+        height: 52px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #020817;
+        margin-left: 41px;
+    }
 
-.section-cards {
-    background: #FFFFFF;
-    margin-left: 16px;
-    margin-right: 16px;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
-}
+    .Parental_schedule-paragrouph p {
+        display: flex;
+        width: 303.85px;
+        height: 44px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #64748B;
+        margin-left: 41px;
+        position: relative;
+        margin-bottom: 30px;
+        top: 10px;
+    }
 
+    .Parental_schedule-paragrouph img {
+        width: 116.88px;
+        height: 40px;
+        margin-left: 41px;
+        margin-bottom: 26px;
+    }
 
-.section-text h2 {
-    display: flex;
-    margin-top: 100px;
-    width: 137.78px;
-    height: 61px;
-    margin-left: 20px;
-}
+    .Parental_schedule {
+        background: #FFFFFF;
+        width: 368px;
+        height: 450px;
+        border-radius: 24px;
+        margin-left: 16px;
+        position: relative;
+        top: 48px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+        margin-top: 48px;
+        margin-bottom:64px;
+    }
 
-.section-text img {
-    display: flex;
-    margin-left: 229.64px;
-    position: relative;
-    bottom: 55px;
-}
+    .Quick_links-text{
+        display: flex;
+        height: 68px;
+        font-size: 20px;
+        font-weight: 600;
+        align-items: center;
+        background: #EFF6FF;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        padding-left: 24px;
+    }
 
-.section-cards-item img {
-    width: 367.5px;
-    height: 250px;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-}
+    .Quick_links {
+        background: #FFFFFF;
+        width: 368px;
+        height: 452px;
+        border-radius: 16px;
+        margin-left: 16px;
+        position: relative;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+        margin-bottom:64px;
+        top: 30px;
+    }
 
-.section-csrdas-data img {
-    width: 12px;
-    height: 12px;
-    margin-left: 41px;
-    margin-top: 28px;
-}
+    .Quick_links-text-link {
+        display: flex;
+        background: #DBEAFE;
+        width: 40px;
+        height: 40px;
+        margin-top: 40px;
+        margin-left: 40px;
+        border-radius: 12px;
+    }
 
-.section-csrdas-data p {
-    position: relative;
-    bottom: 20px;
-    width: 77.12px;
-    height: 20px;
-    margin-left: 57px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    color: #6B7280;
-}
+    .Quick_links-text-link img {
+        display: flex;
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+    }
 
-.section-cards-paragrouph h1 {
-    display: flex;
-    width: 240px;
-    height: 52px;
-    font-weight: 600;
-    font-size: 20px;
-    color: #020817;
-    margin-left: 41px;
-}
-
-.section-cards-paragrouph p {
-    display: flex;
-    width: 255.83px;
-    height: 61px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #64748B;
-    margin-left: 41px;
-    position: relative;
-    top: 10px;
-}
-
-.section-cards-paragrouph img {
-    width: 116.88px;
-    height: 40px;
-    margin-left: 41px;
-    position: relative;
-    margin-top: 26px;
-    margin-bottom: 26px;
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
-}
-
-.computer_clasroom_cards-item img {
-    width: 366px;
-    height: 192px;
-    margin-left: 17px;
-    margin-top: 25px;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-}
-
-.computer_clasroom_cards-item .data-icons {
-    display: flex;
-    position: relative;
-    width: 12px;
-    height: 12px;
-    margin-left: 41px;
-    margin-top: 28px;
-}
-
-.computer_clasroom_cards-item p {
-    position: relative;
-    bottom: 16px;
-    width: 108.31px;
-    height: 20px;
-    margin-left: 57px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    color: #6B7280;
-}
-
-.computer_classroom-paragrouph h1 {
-    display: flex;
-    width: 240px;
-    height: 52px;
-    font-weight: 600;
-    font-size: 20px;
-    color: #020817;
-    margin-left: 41px;
-}
-
-.computer_classroom-paragrouph p {
-    display: flex;
-    width: 255.83px;
-    height: 61px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #64748B;
-    margin-left: 41px;
-    position: relative;
-    margin-bottom: 30px;
-    top: 10px;
-}
-
-.computer_classroom {
-    border: 1px solid red;
+    .Quick_links-text-link p {
+        display: flex;
+        white-space: nowrap;
+        height: 24px;
+        font-weight: 500;
+        font-size: 16px;
+        margin-left: 16px;
+        margin-top: 10px;
+    }
 }
