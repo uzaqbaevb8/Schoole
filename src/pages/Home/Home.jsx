@@ -94,6 +94,35 @@ const Home = () => {
             <img src="./public/School documents.svg" alt="School documents.svg" />
             <p>Школьные документы</p>
           </div>
+          <div className='Quick_links-text-link_Our_teachers'>
+            <img src="./public/Our teachers.svg" alt='Our teachers.svg' />
+            <p>Наши учителя</p>
+          </div>
+          <div className='Qucik_links-text-link_Available_courses'>
+            <img src="./public/Available courses.svg" alt='Available courses.svg' />
+            <p>Доступные курсы</p>
+          </div>
+        </div>
+        <div className='Our_Teachers'>
+          <div className='Our_Teachers-text'>
+            <h2>Our Teachers</h2>
+            <p>Meet our dedicated team of educators
+              committed to providing the highest quality
+              education and support for our students.
+            </p>
+          </div>
+          <div className='Our_Teachers-cards'>
+            <div className='Our_Teachers-cards-item'>
+              <img src = './public/teacher1.png' alt='teacher1.png' />
+              <h1>Dr. Sarah Johnson</h1>
+              <h2>Principal</h2>
+            </div>
+          </div>
+          <dic className='Our_Teachers-cards_2'>
+            <div className='Our_Teachers-cards_2-item'>
+              
+            </div>
+          </dic>
         </div>
       </div>
     </div>
