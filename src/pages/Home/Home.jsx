@@ -113,16 +113,76 @@ const Home = () => {
           </div>
           <div className='Our_Teachers-cards'>
             <div className='Our_Teachers-cards-item'>
-              <img src = './public/teacher1.png' alt='teacher1.png' />
+              <img src='./public/teacher1.png' alt='teacher1.png' />
               <h1>Dr. Sarah Johnson</h1>
               <h2>Principal</h2>
             </div>
           </div>
           <dic className='Our_Teachers-cards_2'>
             <div className='Our_Teachers-cards_2-item'>
-              
+              <img src='./public/teacher2.png' alt='teacher2.png' />
+              <h1>Prof. Michael Chen</h1>
+              <h2>Mathematics</h2>
             </div>
           </dic>
+          <div className='Our_Teachers-cards_3'>
+            <div className='Our_Teachers-cards_3-item'>
+              <img src='./public/teacher3.png' alt='teacher3.png' />
+              <h1>Dr. Emily Rodriguez</h1>
+              <h2>Science</h2>
+            </div>
+          </div>
+          <div className='Our_Teachers-cards_4'>
+            <div className='Our_Teachers-cards_4-item'>
+              <img src='./public/teacher4.png' alt='teacher4.png' />
+              <h1>Prof. David Kim</h1>
+              <h2>Literature</h2>
+            </div>
+          </div>
+        </div>
+        <div className='About_our_school'>
+          <div className='About_our_school-image'>
+            <img src='./public/image of our school.jpg' alt='image of our school.jpg' />
+          </div>
+          <div className='About_our_school-image_Gradient'>
+            <img src='./public/About_our_school-image_Gradient.png' alt='' />
+          </div>
+          <div className='About_our_school-text'>
+            <h1>О нашей школе</h1>
+            <p>Наша школа предоставляет
+              качественное образование с 1998
+              года. Мы фокусируемся на развитии
+              не только академических знаний, но и
+              критического мышления, творчества
+              и социальных навыков у наших
+              учеников.
+            </p>
+          </div>
+          <div className='About_our_school-text-link'>
+            <img src='./public/link_Students.svg' alt='link_Students' />
+            <p>Учеников</p>
+          </div>
+          <div className='About_our_school-text-link_2'>
+            <img src='./public/link_Teachers.svg' alt='link_Teachers' />
+            <p>Учителей</p>
+          </div>
+          <div className='About_our_school-text-link_3'>
+            <img src='./public/link_Classes.svg' alt='link_Classes' />
+            <p>Классов</p>
+          </div>
+          <div className='About_our_school-text-link_4'>
+            <img src='./public/link_Years of experience.svg' alt='link_Years of experience.svg' />
+            <p>Лет опыта</p>
+          </div>
+          <div className='About_our_school-text-link_Learn_more_about_us'>
+            <img src='./public/section_Link_SVG.svg' alt='section_link_SVG.svg' />
+            <p>Узнать больше о нас</p>
+          </div>
+        </div>
+        <div className='Upcoming Events'>
+          <div className='Upcoming_Events-text'>
+            <h2>Upcoming Events</h2>
+          </div>
         </div>
       </div>
     </div>

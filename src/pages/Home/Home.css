@@ -448,7 +448,6 @@
         margin-left: 16px;
     }
 
-
     .Our_Teachers-text h2 {
         display: flex;
         width: 197.94px;
@@ -475,8 +474,8 @@
         display: flex;
         flex-direction: column;
         width: 366px;
-        height: 440px;
-        border-radius: 24px;
+        height: 468px;
+        border-radius: 16px;
         background: #FFFFFF;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
         margin-top: 48px;
@@ -486,8 +485,8 @@
         display: flex;
         width: 367px;
         height: 368px;
-        border-top-left-radius: 24px;
-        border-top-right-radius: 24px;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
     }
 
     .Our_Teachers-cards-item h1 {
@@ -509,5 +508,369 @@
         font-size: 16px;
         color: #2563EB;
         margin-left: 151.22px;
+    }
+
+
+    .Our_Teachers-cards_2-item {
+        display: flex;
+        flex-direction: column;
+        width: 366px;
+        height: 468px;
+        border-radius: 16px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+        margin-top: 48px;
+    }
+
+    .Our_Teachers-cards_2-item img {
+        display: flex;
+        width: 367px;
+        height: 368px;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+
+    .Our_Teachers-cards_2-item h1 {
+        display: flex;
+        width: 166px;
+        height: 28px;
+        font-weight: 700;
+        font-size: 18px;
+        color: #111827;
+        margin-left: 103.77px;
+        margin-top: 24px;
+    }
+
+    .Our_Teachers-cards_2-item h2 {
+        display: flex;
+        width: 97.96px;
+        height: 24px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #2563EB;
+        margin-left: 135.42px;
+    }
+
+    .Our_Teachers-cards_3-item {
+        display: flex;
+        flex-direction: column;
+        width: 368px;
+        height: 468px;
+        border-radius: 16px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+        margin-top: 32px;
+    }
+
+    .Our_Teachers-cards_3-item img {
+        display: flex;
+        width: 368.5px;
+        height: 368px;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+
+    .Our_Teachers-cards_3-item h1 {
+        display: flex;
+        width: 171.19px;
+        height: 28px;
+        font-weight: 700;
+        font-size: 18px;
+        color: #111827;
+        margin-left: 98.56px;
+        margin-top: 24px;
+    }
+
+    .Our_Teachers-cards_3-item h2 {
+        display: flex;
+        width: 60.92px;
+        height: 24px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #2563EB;
+        margin-left: 153.73px;
+    }
+
+    .Our_Teachers-cards_4-item {
+        display: flex;
+        flex-direction: column;
+        width: 368px;
+        height: 468px;
+        border-radius: 16px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+        margin-top: 32px;
+    }
+
+    .Our_Teachers-cards_4-item img {
+        display: flex;
+        width: 368.5px;
+        height: 368px;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+
+    .Our_Teachers-cards_4-item h1 {
+        display: flex;
+        width: 134.57px;
+        height: 28px;
+        font-weight: 700;
+        font-size: 18px;
+        color: #111827;
+        margin-left: 116.86px;
+        margin-top: 24px;
+    }
+
+    .Our_Teachers-cards_4-item h2 {
+        display: flex;
+        width: 60.92px;
+        height: 24px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #2563EB;
+        margin-left: 147.94px;
+    }
+
+    .About_our_school {
+        background: #FFFFFF;
+        width: 368px;
+        height: 768px;
+        border-radius: 16px;
+        margin-left: 16px;
+        position: relative;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+        margin-top: 187px;
+    }
+
+    .About_our_school-image img {
+        width: 368px;
+        height: 192px;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+
+    .About_our_school-image_Gradient img {
+        width: 368.5px;
+        height: 192.5px;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        position: relative;
+        top: -196px;
+    }
+
+    .About_our_school-text h1 {
+        display: flex;
+        width: 186.53px;
+        height: 32px;
+        font-weight: 700;
+        font-size: 20px;
+        margin-left: 32px;
+        position: relative;
+        bottom: 202px;
+        margin-top: 32px;
+    }
+
+    .About_our_school-text p {
+        display: flex;
+        width: 304.14px;
+        height: 164px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #4B5563;
+        margin-left: 32px;
+        position: relative;
+        bottom: 202px;
+        margin-top: 16px;
+    }
+
+    .About_our_school-text-link {
+        width: 144px;
+        height: 92px;
+        border-radius: 16px;
+        background: #EFF6FF;
+        margin-left: 32px;
+        position: relative;
+        bottom: 180px;
+        cursor: pointer;
+    }
+
+    .About_our_school-text-link img {
+        width: 81.15px;
+        height: 36px;
+        margin-left: 32.25px;
+        position: relative;
+        margin-top: 16px;
+        margin-bottom: 40px;
+    }
+
+    .About_our_school-text-link p {
+        display: flex;
+        width: 64.87px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4B5563;
+        position: absolute;
+        margin-left: 39.77px;
+        bottom: 16px;
+    }
+
+    .About_our_school-text-link_2 {
+        width: 144px;
+        height: 92px;
+        border-radius: 16px;
+        background: #EFF6FF;
+        margin-left: 192px;
+        position: relative;
+        bottom: 272px;
+        cursor: pointer;
+    }
+
+    .About_our_school-text-link_2 img {
+        width: 60.56px;
+        height: 36px;
+        margin-left: 42.36px;
+        margin-top: 16px;
+        margin-bottom: 40px;
+    }
+
+    .About_our_school-text-link_2 p {
+        display: flex;
+        width: 63.84px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4B5563;
+        position: absolute;
+        margin-left: 39.77px;
+        bottom: 16px;
+    }
+
+    .About_our_school-text-link_3 {
+        width: 144px;
+        height: 92px;
+        border-radius: 16px;
+        background: #EFF6FF;
+        margin-left: 32px;
+        margin-top: 16px;
+        position: relative;
+        bottom: 272px;
+        cursor: pointer;
+    }
+
+    .About_our_school-text-link_3 img {
+        width: 60.56px;
+        height: 36px;
+        margin-left: 42.36px;
+        margin-top: 16px;
+        margin-bottom: 40px
+    }
+
+    .About_our_school-text-link_3 p {
+        display: flex;
+        width: 63.84px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4B5563;
+        position: absolute;
+        margin-left: 39.77px;
+        bottom: 16px;
+    }
+
+    .About_our_school-text-link_4 {
+        width: 144px;
+        height: 92px;
+        border-radius: 16px;
+        background: #EFF6FF;
+        margin-left: 192px;
+        margin-top: 16px;
+        position: relative;
+        bottom: 380px;
+        cursor: pointer;
+    }
+
+    .About_our_school-text-link_4 img {
+        width: 58.65px;
+        height: 36px;
+        margin-left: 42.36px;
+        margin-top: 16px;
+        margin-bottom: 40px
+    }
+
+    .About_our_school-text-link_4 p {
+        display: flex;
+        width: 71.27px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4B5563;
+        position: absolute;
+        margin-left: 39.77px;
+        bottom: 16px;
+    }
+
+    .About_our_school-text-link_Learn_more_about_us {
+        width: 215px;
+        height: 40px;
+        border-radius: 9999px;
+        background: #2563EB;
+        margin-left: 32px;
+        position: relative;
+        bottom: 380px;
+        cursor: pointer;
+        margin-top: 32px;
+    }
+
+    .About_our_school-text-link_Learn_more_about_us img {
+        width: 20px;
+        height: 20px;
+        margin-left: 175.11px;
+        margin-top: 11px;
+    }
+
+    .About_our_school-text-link_Learn_more_about_us p {
+        display: flex;
+        width: 143px;
+        height: 17px;
+        font-weight: 500;
+        font-size: 13.5px;
+        line-height: 20px;
+        color: #FFFFFF;
+        margin-left: 24px;
+        margin-top: 16px;
+        position: relative;
+        bottom: 39px;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .Upcoming_Events-text {
+        display: flex;
+        background: #EFF6FF;
+        width: 368px;
+        height: 68px;
+        margin-left: 16px;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        margin-top: 48px;
+    }
+
+    .Upcoming_Events-text h2 {
+        display: flex;
+        height: 68px;
+        font-size: 20px;
+        font-weight: 600;
+        align-items: center;
+        padding-left: 24px;
+
     }
 }
