@@ -851,17 +851,25 @@
         align-items: center;
     }
 
-
+    .Upcoming_Events {
+        background: #FFFFFF;
+        width: 368px;
+        height: 670px;
+        border-radius: 16px;
+        position: relative;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+        margin-left: 16px;
+        margin-top: 48px;
+        margin-bottom: 64px;
+    }
 
     .Upcoming_Events-text {
         display: flex;
         background: #EFF6FF;
         width: 368px;
         height: 68px;
-        margin-left: 16px;
         border-top-left-radius: 16px;
         border-top-right-radius: 16px;
-        margin-top: 48px;
     }
 
     .Upcoming_Events-text h2 {
@@ -871,6 +879,313 @@
         font-weight: 600;
         align-items: center;
         padding-left: 24px;
+    }
 
+    .Parent-Teacher_Conference {
+        width: 320px;
+        margin-left: 24px;
+        margin-top: 25px; 
+    }
+
+    .Parnet-Teacher_Conference-item {
+        display: flex;
+        height: 28px;
+        font-size: 9.3px;
+        line-height: 28px;
+        color: #111827;
+        margin-top: 24px;
+    }
+
+    .Parent-Teacher_Conference-date img {
+        display: flex;
+        width: 16px;
+        height: 16px;
+        margin-top: 10px;
+    }
+
+    .Parent-Teacher_Conference-date p {
+        display: flex;
+        position: relative;
+        width: 88.53px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        bottom: 17.5px;
+        margin-left: 22.5px;
+        color: #4B5563;
+    }
+
+    .Parent-Teacher_Conference-time img {
+        display: flex;
+        width: 16px;
+        height: 16px;
+    }
+
+    .Parent-Teacher_Conference-time p {
+        display: flex;
+        position: relative;
+        width: 125.66px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        bottom: 17.5px;
+        margin-left: 22.5px;
+        color: #4B5563;
+    }
+
+    .Parent-Teacher_Conference-Location img {
+        display: flex;
+        width: 16px;
+        height: 16px;
+    }
+
+    .Parent-Teacher_Conference-Location p {
+        display: flex;
+        position: relative;
+        width: 143.62px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        bottom: 25px;
+        margin-left: 22.5px;
+        color: #4B5563;
+        margin-top: 8px;
+    }
+
+    .Parent-Teacher_Conference{
+        border-bottom: 1px solid #F3F4F6;
+        width: 320px;
+    }
+
+    .Science_Fair-item h1 {
+        display: flex;
+        width: 108.06px;
+        height: 28px;
+        font-weight: 700;
+        font-size: 18px;
+        color: #111827;
+        margin-top: 24px;
+    }
+
+    .Science_Fair-date img {
+        display: flex;
+        width: 16px;
+        height: 16px;
+        margin-top: 10px;
+    }
+
+    .Science_Fair-date p {
+        display: flex;
+        position: relative;
+        width: 91.65px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 20px;
+        bottom: 17.5px;
+        margin-left: 22.5px;
+        color: #4B5563;
+    }
+
+    .Science_Fair-time img {
+        display: flex;
+        width: 16px;
+        height: 16px;
+    }
+
+    .Science_Fair-time p {
+        display: flex;
+        position: relative;
+        width: 126.51px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 20px;
+        bottom: 17.5px;
+        margin-left: 22.5px;
+        color: #4B5563;
+    }
+
+    .Science_Fair-Location img {
+        display: flex;
+        width: 16px;
+        height: 16px;
+    }
+
+    .Science_Fair-Location p {
+        display: flex;
+        position: relative;
+        width: 127.82px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        bottom: 25px;
+        margin-left: 22.5px;
+        color: #4B5563;
+        margin-top: 8px;
+    }
+
+    .Science_Fair {
+        border-bottom: 1px solid #F3F4F6;
+        width: 320px;
+        margin-left: 24px;
+    }
+
+    .End_of_Year_Concert-item h1 {
+        display: flex;
+        width: 175.82px;
+        height: 28px;
+        font-weight: 700;
+        font-size: 18px;
+        color: #111827;
+        margin-top: 24px;
+        margin-left: 24px;
+    }
+
+    .End_of_Year_Concert-date img {
+        display: flex;
+        width: 16px;
+        height: 16px;
+        margin-top: 10px;
+        margin-left: 24px;
+    }
+
+    .End_of_Year_Concert-date p {
+        display: flex;
+        position: relative;
+        width: 87.1px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 20px;
+        bottom: 17.5px;
+        margin-left: 48px;
+        color: #4B5563;
+    }
+
+    .End_of_Year_Concert-time img {
+        display: flex;
+        width: 16px;
+        height: 16px;
+        margin-left: 24px;
+    }
+
+    .End_of_Year_Concert-time p {
+        display: flex;
+        position: relative;
+        width: 126.51px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 20px;
+        bottom: 17.5px;
+        margin-left: 48px;
+        color: #4B5563;
+    }
+
+    .End_of_Year_Concert-Location img {
+        display: flex;
+        width: 16px;
+        height: 16px;
+        margin-left: 24px;
+    }
+
+    .End_of_Year_Concert-Location p {
+        display: flex;
+        position: relative;
+        width: 121.86px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        bottom: 25px;
+        margin-left: 48px;
+        color: #4B5563;
+        margin-top: 8px;
+    }
+
+    .View_All_Events {
+        display: flex;
+        width: 320px;
+        height: 40px;
+        background: #FFFFFF;
+        border-radius: 9999px;
+        margin-left: 24px;
+        cursor: pointer;
+        border: 1.5px solid #E2E8F0;
+    }
+
+    .View_All_Events h1 {
+        display: flex;
+        width: 102.91px;
+        height: 17px;
+        font-weight: 500;
+        font-size: 14px;
+        color: #020817;
+        margin-left: 96.72px;
+        margin-top: 11px;
+    }
+
+    .View_All_Events img {
+        display: flex;
+        width: 16px;
+        height: 16px;
+        margin-left: 7.64px;
+        margin-top: 12px;
+    }
+
+
+    .Photo_Gallery-text h2 {
+        display: flex;
+        width: 198.34px;
+        height: 36px;
+        font-weight: 700;
+        font-size: 30px;
+        color: #111827;
+        margin-left: 16px;
+        margin-top: 24px;
+    }
+
+    .View_All_Photos{
+        width: 161.98px;
+        height: 40px;
+        border-radius: 9999px;
+        background: #FFFFFF;
+        position: relative;
+        margin-left: 222.02px;
+        bottom: 37px;
+        border: 1.5px solid #E2E8F0;
+    }
+
+    .View_All_Photos h1 {
+        display: flex;
+        width: 104.34px;
+        height: 17px;
+        font-weight: 500;
+        font-size: 14px;
+        color: #020817;
+        cursor: pointer;
+        margin-top: 11px;
+        margin-left: 17px;
+
+    }
+
+    .View_All_Photos img {
+        display: flex;
+        width: 16px;
+        height: 16px;
+        position: relative;
+        bottom: 16px;
+        margin-left: 128.98px;
+        cursor: pointer;
+    }
+
+
+    .Photo_Gallery_Students_in_classroom img {
+        display: flex;
+        width: 176px;
+        height: 132px;
+        border-radius: 16px;
+        margin-left: 16px;
     }
 }

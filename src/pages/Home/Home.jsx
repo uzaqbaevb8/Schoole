@@ -179,9 +179,79 @@ const Home = () => {
             <p>Узнать больше о нас</p>
           </div>
         </div>
-        <div className='Upcoming Events'>
+        <div className='Upcoming_Events'>
           <div className='Upcoming_Events-text'>
             <h2>Upcoming Events</h2>
+          </div>
+          <div className='Parent-Teacher_Conference'>
+            <div className='Parnet-Teacher_Conference-item'>
+              <h1>Parent-Teacher Conference</h1>
+            </div>
+            <div className='Parent-Teacher_Conference-date'>
+              <img src='./public/data-icon.svg' alt='data-icon.svg' />
+              <p>May 15, 2025</p>
+            </div>
+            <div className='Parent-Teacher_Conference-time'>
+              <img src='./public/time-icon.svg' alt='time-icon.svg' />
+              <p>4:00 PM - 7:00 PM</p>
+            </div>
+            <div className='Parent-Teacher_Conference-Location'>
+              <img src='./public/Location-icon.svg' alt='Location-icon.svg' />
+              <p>Main Building, Floor 2</p>
+            </div>
+          </div>
+          <div className='Science_Fair'>
+            <div className='Science_Fair-item'>
+              <h1>Science Fair</h1>
+            </div>
+            <div className='Science_Fair-date'>
+              <img src='./public/data-icon.svg' alt='data-icon.svg' />
+              <p>May 20, 2025</p>
+            </div>
+            <div className='Science_Fair-time'>
+              <img src='./public/time-icon.svg' alt='time-icon.svg' />
+              <p>6:00 PM - 8:00 PM</p>
+            </div>
+            <div className='Science_Fair-Location'>
+              <img src='./public/Location-icon.svg' alt='Location-icon.svg' />
+              <p>School Gymnasium</p>
+            </div>
+          </div>
+          <div className='End_of_Year_Concert'>
+            <div className='End_of_Year_Concert-item'>
+              <h1>End of Year Concert</h1>
+            </div>
+            <div className='End_of_Year_Concert-date'>
+              <img src='./public/data-icon.svg' alt='data-icon.svg' />
+              <p>June 5, 2025</p>
+            </div>
+            <div className='End_of_Year_Concert-time'>
+              <img src='./public/time-icon.svg' alt='time-icon.svg' />
+              <p>6:00 PM - 8:00 PM</p>
+            </div>
+            <div className='End_of_Year_Concert-Location'>
+              <img src='./public/Location-icon.svg' alt='Location-icon.svg' />
+              <p>School Auditorium</p>
+            </div>
+          </div>
+          <div className='View_All_Events'>
+            <h1>View All Events</h1>
+            <img src='./public/View All Events Button.svg' alt='View All Events Button' />
+          </div>
+        </div>
+        <div className='Photo Gallery'>
+          <div className='Photo_Gallery-text'>
+            <h2>Photo Gallery</h2>
+          </div>
+          <div className='View_All_Photos'>
+            <h1>View All Photos</h1>
+            <img src='./public/View All Photos button.svg' alt='View All Photos button' />
+          </div>
+          <div className='Photo_Gallery_Students_in_classroom'>
+            <img src="./public/Students in classroom.png" alt="Students in classroom.png" />
+          </div>
+          <div className='Photo_Gallery_Overlay+Shadow.png'>
+            
           </div>
         </div>
       </div>
