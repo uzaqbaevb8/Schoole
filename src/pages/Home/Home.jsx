@@ -239,7 +239,7 @@ const Home = () => {
             <img src='./public/View All Events Button.svg' alt='View All Events Button' />
           </div>
         </div>
-        <div className='Photo Gallery'>
+        <div className='Photo_Gallery'>
           <div className='Photo_Gallery-text'>
             <h2>Photo Gallery</h2>
           </div>
@@ -250,8 +250,20 @@ const Home = () => {
           <div className='Photo_Gallery_Students_in_classroom'>
             <img src="./public/Students in classroom.png" alt="Students in classroom.png" />
           </div>
-          <div className='Photo_Gallery_Overlay+Shadow.png'>
-            
+          <div className='Photo_Gallery_labaratory_classroom'>
+            <img src='./public/Science laboratory.png' alt='Scince Labaratory.png' />
+          </div>
+          <div className='Photo_Gallery_Sports_activities'>
+            <img src='./public/Sports activities.png' alt='Sports activities.png' />
+          </div>
+          <div className='Photo_Gallery_School_events'>
+            <img src='./public/Arts and crafts.png' alt='Arts and crafts.png' />
+          </div>
+          <div className='Photo_Gallery_Arts_and_crafts'>
+            <img src='./public/Gallery_Arts_and_crafts.png' alt='Gallery_Arts_and_crafts.png' />
+          </div>
+          <div className='Photo_Gallery_school_library'>
+            <img src='./public/School library.png' alt='School library.png' />
           </div>
         </div>
       </div>
