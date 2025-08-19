@@ -1134,7 +1134,6 @@
         margin-top: 12px;
     }
 
-
     .Photo_Gallery-text h2 {
         display: flex;
         width: 198.34px;
@@ -1178,26 +1177,31 @@
         cursor: pointer;
     }
 
-
     .Photo_Gallery {
         width: 368px;
         height: 500px;
-        border: 1px solid red;
         margin-left: 16px;
+        margin-top: 48px;
+        position: relative;
     }
 
     .Photo_Gallery_Students_in_classroom {
         width: 176px;
+        height: 132px;
+        overflow: hidden;
         border-radius: 16px;
+        position: relative;
+        bottom: 10px;
     }
 
     .Photo_Gallery_labaratory_classroom {
         width: 176px;
         height: 132px;
+        overflow: hidden;
         border-radius: 16px;
         position: relative;
-        left: 192px;
-        bottom: 136px;
+        left: 191px;
+        bottom: 143px;
     }
 
     .Photo_Gallery_school_library {
@@ -1208,4 +1212,315 @@
         left: 192px;
         bottom: 136px;
     }
+
+    .Photo_Gallery_Sports_activities img {
+        width: 177px;
+        height: 132px;
+        border-radius: 16px;
+        margin-top: 16px;
+        position: relative;
+        bottom: 146.5px;
+    }
+
+    .Photo_Gallery_School_events img {
+        width: 177px;
+        height: 132px;
+        margin-top: 16px;
+        position: relative;
+        border-radius: 16px;
+        bottom: 298px;
+        left: 190.5px;
+    }
+
+    .Photo_Gallery_Arts_and_crafts img {
+        width: 176px;
+        height: 132px;
+        position: relative;
+        border-radius: 16px;
+        bottom: 282px;
+    }
+
+    .Photo_Gallery_school_library img {
+        width: 176px;
+        height: 132px;
+        position: relative;
+        bottom: 282.5px;
+        border-radius: 16px;
+        right: 1px;
+    }
+
+
+    .footer {
+        width: 400px;
+        height: 1141px;
+        background: white;
+        margin-top: 97px;
+    }
+
+    .footer-logo img {
+        width: 40px;
+        height: 40px;
+        margin-left: 16px;
+        margin-top: 48px;
+    }
+
+
+    .footer-logo-h1 h1 {
+        display: flex;
+        width: 124.69px;
+        height: 28px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: 68px;
+        position: relative;
+        bottom: 37px;
+    }
+
+    .footer-text p {
+        display: flex;
+        width: 295.56px;
+        height: 68px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #4B5563;
+        margin-left: 16px;
+        position: relative;
+        bottom: 37px;
+        margin-top: 26px;
+    }
+
+
+    .footer-socials-Facebook {
+        background: #DBEAFE;
+        border-radius: 9999px;
+        width: 40px;
+        height: 40px;
+        margin-left: 16px;
+        position: relative;
+        cursor: pointer;
+    }
+    .footer-socials-Facebook img {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .footer-socials-Instagram {
+        background: #DBEAFE;
+        border-radius: 9999px;
+        width: 40px;
+        height: 40px;
+        margin-left: 72px;
+        position: relative;
+        cursor: pointer;
+        bottom: 40px;
+    }
+
+    .footer-socials-Instagram img {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .footer-socials-Twitter {
+        background: #DBEAFE;
+        border-radius: 9999px;
+        width: 40px;
+        height: 40px;
+        margin-left: 128px;
+        position: relative;
+        cursor: pointer;
+        bottom: 80px;
+    }
+
+    .footer-socials-Twitter img {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .footer-socials-Quick_Links {
+        display: block;
+        width: 368px;
+        height: 40px;
+    }
+
+    .footer-socials-Quick_Links h2 {
+        display: flex;
+        width: 102.52px;
+        height: 28px;
+        font-weight: 700;
+        font-size: 18px;
+        margin-left: 16px;
+        position: relative;
+        bottom: 25px;
+    }
+
+    .footer-socials-Quick_Links_About_Us a{
+        display: flex;
+        width: 69.98px;
+        height: 20px;
+        margin-left: 16px;
+        position: relative;
+        bottom: 5px;
+        font-weight: 400;
+        color: #4B5563;
+    }
+
+    .footer-socials-Quick_Links_Education a {
+        display: flex;
+        width: 75.31px;
+        height: 20px;
+        margin-left: 16px;
+        position: relative;
+        bottom: 5px;
+        font-weight: 400;
+        color: #4B5563;
+        margin-top: 20px;
+    }
+
+    .footer-socials-Quick_Links_News_Events a {
+        display: flex;
+        width: 112.55px;
+        height: 20px;
+        margin-left: 16px;
+        position: relative;
+        bottom: 5px;
+        font-weight: 400;
+        color: #4B5563;
+        margin-top: 20px;
+    }
+
+    .footer-socials-Quick_Links_Support a {
+        display: flex;
+        width: 60.42px;
+        height: 20px;
+        margin-left: 16px;
+        position: relative;
+        bottom: 5px;
+        font-weight: 400;
+        color: #4B5563;
+        margin-top: 20px;
+    }
+
+    .footer-socials-Quick_Links_Rules_Documents a {
+        display: flex;
+        width: 146.78px;
+        height: 20px;
+        margin-left: 16px;
+        position: relative;
+        bottom: 5px;
+        font-weight: 400;
+        color: #4B5563;
+        margin-top: 20px;
+    }
+
+    .footer-socials-Contact_Us-text h2 {
+        display: flex;
+        width: 98.21px;
+        height: 28px;
+        font-weight: 700;
+        font-size: 18px;
+        margin-left: 16px;
+        padding-top: 156px;
+        margin-top: 48px;
+    }
+
+    .footer-socials-Contact_Us-address img {
+        width: 20px;
+        height: 20px;
+        display: flex;
+        font-size: 18px;
+        margin-top: 52px;
+        margin-left: 16px;
+    }
+
+    .footer-socials-Contact_Us-address-text p {
+        display: flex;
+        width: 258.65px;
+        height: 24px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #4B5563;
+        position: relative;
+        bottom: 23px;
+        margin-left: 48px;
+    }
+
+    .footer-socials-Contact_Us-phone img {
+        width: 20px;
+        height: 20px;
+        display: flex;
+        margin-left: 16px;
+    }
+
+    .footer-socials-Contact_Us-phone-text p {
+        display: flex;
+        width: 120.44px;
+        height: 24px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #4B5563;
+        position: relative;
+        bottom: 23px;
+        margin-left: 48px;
+    }
+    
+    .footer-socials-Contact_Us-email img {
+        width: 20px;
+        height: 20px;
+        display: flex;
+        margin-left: 16px;
+    }
+
+    .footer-socials-Contact_Us-email-text p {
+        display: flex;
+        width: 169.25px;
+        height: 24px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #4B5563;
+        position: relative;
+        bottom: 23px;
+        margin-left: 48px;
+    }
+
+    .footer-socials-Newsletter h2 {
+        display: flex;
+        width: 97.15px;
+        height: 28px;
+        font-weight: 700;
+        font-size: 18px;
+        margin-left: 16px;
+        margin-top: 48px;
+    }
+
+    .footer-socials-Newsletter-text p {
+        width: 354.38px;
+        height: 44px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #4B5563;
+        margin-left: 16px;
+        padding-top: 26px;
+    }
+
+    .footer-socials-Newsletter-input {
+        display: flex;
+        
+
+    }
+
 }
