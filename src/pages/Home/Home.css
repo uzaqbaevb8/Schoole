@@ -1249,12 +1249,12 @@
         right: 1px;
     }
 
-
     .footer {
         width: 400px;
         height: 1141px;
         background: white;
         margin-top: 97px;
+        margin-bottom: 48px;
     }
 
     .footer-logo img {
@@ -1263,7 +1263,6 @@
         margin-left: 16px;
         margin-top: 48px;
     }
-
 
     .footer-logo-h1 h1 {
         display: flex;
@@ -1290,7 +1289,6 @@
         bottom: 37px;
         margin-top: 26px;
     }
-
 
     .footer-socials-Facebook {
         background: #DBEAFE;
@@ -1517,10 +1515,48 @@
         padding-top: 26px;
     }
 
-    .footer-socials-Newsletter-input {
+    .footer-socials-Newsletter-input input{
         display: flex;
-        
-
+        width: 368px; 
+        height: 40px;
+        border-radius: 9999px;
+        background: #FFFFFF;
+        border: 1.5px solid #D1D5DB;
+        margin-left: 16px;
+        margin-top: 44px;
+        padding-left: 16px;
     }
 
+    .footer-socials-Newsletter-button button{
+        display: block;
+        width: 368px;
+        height: 40px;
+        border-radius: 9999px;
+        background: #2563EB;
+        margin-left: 16px;
+        margin-top: 16px;
+        cursor: pointer;
+        border: none;
+        color: #FFFFFF;
+    }
+
+    .footer-socials-Copyright {
+        width: 368px;
+        height: 53px;
+        border-top: 1.5px solid #E5E7EB;
+        margin-top: 48px;
+        margin-left: 16px;
+    }
+
+    .footer-socials-Copyright p {
+        display: flex;
+        width: 298.26px;
+        height: 17px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4B5563; 
+        margin-top: 34px;
+        margin-left: 35.03px;
+    }
 }

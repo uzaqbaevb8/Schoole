@@ -341,6 +341,12 @@ const Home = () => {
             <div className='footer-socials-Newsletter-input'>
               <input type='email' placeholder='Your email address' />
             </div>
+            <div className='footer-socials-Newsletter-button'>
+              <button>Subscribe</button>
+            </div>
+            <div className='footer-socials-Copyright'>
+              <p>© 2025 40-mektep. Все права защищены.</p>
+            </div>
           </div>
         </div>
       </div>
