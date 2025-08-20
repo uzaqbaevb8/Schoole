@@ -1299,6 +1299,7 @@
         position: relative;
         cursor: pointer;
     }
+
     .footer-socials-Facebook img {
         width: 20px;
         height: 20px;
@@ -1362,7 +1363,7 @@
         bottom: 25px;
     }
 
-    .footer-socials-Quick_Links_About_Us a{
+    .footer-socials-Quick_Links_About_Us a {
         display: flex;
         width: 69.98px;
         height: 20px;
@@ -1473,7 +1474,7 @@
         bottom: 23px;
         margin-left: 48px;
     }
-    
+
     .footer-socials-Contact_Us-email img {
         width: 20px;
         height: 20px;
@@ -1515,9 +1516,9 @@
         padding-top: 26px;
     }
 
-    .footer-socials-Newsletter-input input{
+    .footer-socials-Newsletter-input input {
         display: flex;
-        width: 368px; 
+        width: 368px;
         height: 40px;
         border-radius: 9999px;
         background: #FFFFFF;
@@ -1527,7 +1528,7 @@
         padding-left: 16px;
     }
 
-    .footer-socials-Newsletter-button button{
+    .footer-socials-Newsletter-button button {
         display: block;
         width: 368px;
         height: 40px;
@@ -1555,8 +1556,12 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 20px;
-        color: #4B5563; 
+        color: #4B5563;
         margin-top: 34px;
         margin-left: 35.03px;
     }
+}
+
+@media (max-width: 768px) {
+    
 }
