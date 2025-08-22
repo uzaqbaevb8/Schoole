@@ -88,6 +88,155 @@
 }
 
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .mobil_menu {
+        display: 'flexbox';
+        margin-left: 36px;
+    }
 
-@media (min-width: 1440px) {}
+    .logo_2 {
+        display: flex;
+        margin-left: 10px;
+    }
+
+    .logo-text {
+        display: flex;
+        position: fixed;
+        top: 28px;
+        width: 124.69px;
+        height: 28px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        color: #020817;
+        left: 124px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .language_switcher {
+        display: flex;
+        position: fixed;
+        left: 135px;
+        top: 32px;
+    }
+
+    .language {
+        display: flex;
+        position: fixed;
+        top: 36px;
+        left: 448px;
+        width: 49.69px;
+        height: 16px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .language_scroll {
+        display: flex;
+        position: fixed;
+        left: 185px;
+    }
+
+    .theme_switcher {
+        display: flex;
+        margin-left: 200px;
+    }
+
+    .buttom-connect {
+        display: flex;
+        margin-left: 604.81px;
+        position: fixed;
+        border-radius: 9999px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 14px;
+        background-color: #2563EB;
+        color: white;
+        top: 26px;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1440px) {
+    .buttom-connect {
+        display: flex;
+        margin-left: 1173px;
+        height: 36px;
+        border-radius: 9999px;
+        padding-top: 9px;
+        padding-left: 16px;
+        font-size: 14px;
+        background-color: #2563EB;
+        color: white;
+        top: 26px;
+        cursor: pointer;
+        border: 1px solid;
+    }
+
+    .menu {
+        display: flex;
+        width: 525.28px;
+        height: 36px;
+        margin-left: 410px;
+        margin-top: 22px;
+        justify-content: center;
+        align-items: center;
+        gap: 25.5px;
+    }
+
+    .mobil_menu {
+        display: none;
+    }
+
+    .logo_2 {
+        display: flex;
+        position: absolute;
+        left: 48px;
+    }
+
+    .logo-text {
+        display: flex;
+        position: absolute;
+        top: 26px;
+        left: 170px;
+        width: 124.69px;
+        height: 28px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .language_switcher {
+        display: flex;
+        position: fixed;
+        margin-left: 876.94px;
+    }
+
+    .language {
+        display: flex;
+        position: fixed;
+        top: 35px;
+        margin-left: 585px;
+    }
+
+    .language_scroll {
+        display: flex;
+        position: fixed;
+        left: 770px;
+    }
+
+    .theme_switcher {
+        display: flex;
+        margin-left: 780px;
+    }
+}
