@@ -9,11 +9,12 @@
     width: 100%;
     max-width: 1440px;
     padding: 20px 24px;
+
     margin: 0 auto;
     background: #F7FAFC;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 400px) and (max-width: 768px){
     .main {
         display: block;
         width: 368px;
@@ -99,7 +100,7 @@
     .section-csrdas-data img {
         width: 12px;
         height: 12px;
-        margin-left: 41px;
+        margin-left: 25px;
         margin-top: 28px;
     }
 
@@ -108,7 +109,7 @@
         bottom: 20px;
         width: 77.12px;
         height: 20px;
-        margin-left: 57px;
+        margin-left: 41px;
         font-weight: 400;
         font-size: 14px;
         line-height: 20px;
@@ -122,7 +123,7 @@
         font-weight: 600;
         font-size: 20px;
         color: #020817;
-        margin-left: 41px;
+        margin-left: 25px;
     }
 
     .section-cards-paragrouph p {
@@ -133,7 +134,7 @@
         font-size: 16px;
         line-height: 24px;
         color: #64748B;
-        margin-left: 41px;
+        margin-left: 25px;
         position: relative;
         top: 10px;
     }
@@ -141,7 +142,7 @@
     .section-cards-paragrouph img {
         width: 116.88px;
         height: 40px;
-        margin-left: 41px;
+        margin-left: 25px;
         position: relative;
         margin-top: 26px;
         margin-bottom: 26px;
@@ -150,18 +151,16 @@
     }
 
     .computer_clasroom_cards-item img {
-        width: 368px;
-        height: 192px;
         border-top-left-radius: 24px;
         border-top-right-radius: 24px;
     }
 
-    .computer_clasroom_cards-item .data-icons {
+    .data-icons{
         display: flex;
         position: relative;
         width: 12px;
         height: 12px;
-        margin-left: 41px;
+        margin-left: 25px;
         margin-top: 28px;
     }
 
@@ -170,7 +169,7 @@
         bottom: 16px;
         width: 108.31px;
         height: 20px;
-        margin-left: 57px;
+        margin-left: 41px;
         font-weight: 400;
         font-size: 14px;
         line-height: 20px;
@@ -184,7 +183,7 @@
         font-weight: 600;
         font-size: 20px;
         color: #020817;
-        margin-left: 41px;
+        margin-left: 25px;
     }
 
     .computer_classroom-paragrouph p {
@@ -195,7 +194,7 @@
         font-size: 16px;
         line-height: 24px;
         color: #64748B;
-        margin-left: 41px;
+        margin-left: 25px;
         position: relative;
         margin-bottom: 30px;
         top: 10px;
@@ -215,7 +214,7 @@
     .computer_classroom-paragrouph img {
         width: 116.88px;
         height: 40px;
-        margin-left: 41px;
+        margin-left: 25px;
         position: relative;
         margin-top: 12px;
         margin-bottom: 26px;
@@ -236,7 +235,7 @@
         position: relative;
         width: 12px;
         height: 12px;
-        margin-left: 41px;
+        margin-left: 25px;
         margin-top: 28px;
     }
 
@@ -244,7 +243,7 @@
         position: relative;
         width: 108.31px;
         height: 28px;
-        margin-left: 57px;
+        margin-left: 41px;
         font-weight: 400;
         font-size: 14px;
         line-height: 20px;
@@ -258,7 +257,7 @@
         font-weight: 600;
         font-size: 20px;
         color: #020817;
-        margin-left: 41px;
+        margin-left: 25px;
     }
 
     .Parental_schedule-paragrouph p {
@@ -269,7 +268,7 @@
         font-size: 16px;
         line-height: 24px;
         color: #64748B;
-        margin-left: 41px;
+        margin-left: 25px;
         position: relative;
         margin-bottom: 30px;
         top: 10px;
@@ -278,7 +277,7 @@
     .Parental_schedule-paragrouph img {
         width: 116.88px;
         height: 40px;
-        margin-left: 41px;
+        margin-left: 25px;
         margin-bottom: 26px;
     }
 
@@ -1562,7 +1561,8 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) and (max-width: 1440px) {
+
     .main {
         flex-direction: row;
         width: 720px;
@@ -1571,6 +1571,7 @@
         margin-left: 20px;
         margin-top: 50px;
         padding: 0;
+        background: #DBEAFE;
     }
 
     .main-text h1 {
@@ -1617,6 +1618,7 @@
         display: flex;
         width: 720px;
         height: 258px;
+        margin-left: 24px;
     }
 
     .section-cards-item img {
@@ -1686,6 +1688,7 @@
         display: flex;
         width: 720px;
         height: 230px;
+        margin-left: 24px;
     }
 
     .computer_clasroom_cards-item img {
@@ -1697,8 +1700,10 @@
 
     .computer_classroom-paragrouph h1 {
         display: flex;
-        width: 410px;
+        position: absolute;
+        width: auto;
         height: 28px;
+        right: 52.5px;
         margin-top: 59px;
     }
 
@@ -1706,6 +1711,347 @@
         display: flex;
         width: 363.27px;
         height: 44px;
+        position: absolute;
+        right: 92px;
+        margin-bottom: 26px;
+        margin-top: 95px;
+    }
+
+    .computer_clasroom_cards-item p {
+        display: flex;
+        position: absolute;
+        top: 25px;
+        right: 330px;
+    }
+
+    .computer_classroom-paragrouph img {
+        display: flex;
+        position: absolute;
+        width: 116.88px;
+        margin-top: 165px;
+    }
+
+    .computer_clasroom_cards-item .data-icons {
+        display: flex;
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        top: 0px;
+        left: 240px;
+    }
+
+    .Parental_schedule {
+        display: flex;
+    }
+
+    .Parental_schedule_cards-item img {
+        display: flex;
+        width: 239.33px;
+        height: 231px;
+        border-bottom-left-radius: 24px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 24px;
+    }
+
+    .Parental_schedule_cards-item p {
+        display: flex;
+        position: absolute;
+        top: 0px;
+        margin-left: 282px;
+        margin-top: 25px;
+    }
+
+
+
+    .Parental_schedule-paragrouph h1 {
+        display: flex;
+        margin-top: 59px;
+    }
+
+    .Parental_schedule {
+        display: flex;
+        margin-left: 24px;
+        width: 720px;
+        height: 230px;
+    }
+
+    .Parental_schedule_cards-item .data-icons {
+        display: flex;
+        position: absolute;
+        top: 0px;
+        left: 240px;
+    }
+
+    .Parental_schedule-paragrouph p {
+        display: flex;
+        width: 320.74px;
+        position: absolute;
+        margin-top: 90px;
+    }
+
+    .Parental_schedule-paragrouph img{
+        display: flex;
+        position: absolute;
+        top: 165px;
+    }
+
+    .Quick_links {
+        margin-left: 24px;
+        width: 720px;
+        height: 452px;
+    }
+
+    .Quick_links-text {
+        width: 720px;
+        height: 68px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .Our_Teachers {
+        width: 720px;
+        height: 1068px;
+    }
+
+    .Our_Teachers-text h2 {
+        display: flex;
+        margin-left: 261.2px;
+    }
+
+    .Our_Teachers-text p {
+        display: flex;
+        width: 672px;
+        color: #4B5563;
+    }
+
+    .Our_Teachers-cards-item {
+        display: flex;
+        width: 343px;
+        height: 444px;
+
+    }
+
+    .Our_Teachers-cards-item img {
+        display: flex;
+        position: relative;
+        width: 344px;
+        height: 344px;
+    }
+
+    .Our_Teachers-cards-item h1 {
+        display: flex;
+        width: 160.79px;
+        height: 28px;
+        font-weight: 700;
+        font-size: 18px;
+        color: #111827;
+        margin-left: 91.77px;
+    }
+
+    .Our_Teachers-cards-item h2 {
+        display: flex;
+        margin-left: 139.22px;
+    }
+
+    .Our_Teachers-cards_2 {
+        display: flex;
+        padding-left: 385px;
+        position: relative;
+        bottom: 492px;
+    }
+
+    .Our_Teachers-cards_2-item {
+        width: 343.5px;
+        height: 444px;
+    }
+
+    .Our_Teachers-cards_2-item img {
+        display: flex;
+        width: 344px;
+        height: 344px;
+    }
+
+    .Our_Teachers-cards_2-item h1 {
+        display: flex;
+        margin-left: 89.16px;
+    }
+
+    .Our_Teachers-cards_2-item h2 {
+        display: flex;
+        margin-left: 123.42px;
+    }
+
+    .Our_Teachers-cards_3 {
+        display: flex;
+        position: relative;
+        width: 344px;
+        height: 344px;
+        bottom: 492px;
+    }
+
+    .Our_Teachers-cards_3-item {
+        display: flex;
+        width: 343px;
+        height: 444px;
+
+    }
+
+    .Our_Teachers-cards_3-item img {
+        display: flex;
+        width: 344px;
+        height: 344px;
+    }
+
+    .Our_Teachers-cards_3-item h1 {
+        display: flex;
+        margin-left: 86.56px;
+    }
+
+    .Our_Teachers-cards_3-item h2 {
+        display: flex;
+        margin-left: 139px;
+    }
+
+    .Our_Teachers-cards_4-item {
+        display: flex;
+        position: relative;
+        width: 344px;
+        height: 444px;
+        bottom: 835px;
+        margin-left: 385px;
+    }
+
+    .Our_Teachers-cards_4-item img {
+        width: 344.5px;
+        height: 344px;
+    }
+
+    .Our_Teachers-cards_4-item h1 {
+        display: flex;
+        margin-left: 104.86px;
+    }
+
+    .Our_Teachers-cards_4-item h2 {
+        display: flex;
+        margin-left: 135.94px;
+    }
+
+    .About_our_school {
+        width: 720px;
+        height: 688px;
+        margin-left: 24px;
+    }
+
+    .About_our_school-image img{
+        width: 721px;
+        height: 200px;
+    }
+
+    .About_our_school-image_Gradient img{
+        width: 722px;
+        height: 193px;
+    }
+
+    .About_our_school-text {
+        width: 186.53px;
+    }
+
+    .About_our_school-text h1 {
+        margin-left: 40px;
+    }
+
+    .About_our_school-text p {
+        display: flex;
+        width: 633.64px;
+        height: 68px;
+        margin-left: 40px;
+        margin-top: 18px;
+    }
+
+    .About_our_school-text-link {
+        display: flex;
+        width: 312px;
+        height: 92px;
+    }
+
+    .About_our_school-text-link img {
+        display: flex;
+        width: 81.15px;
+        height: 36px;
+        margin-left: 116.25px;
+    }
+
+    .About_our_school-text-link p {
+        display: flex;
+        margin-left: 123.77px;
+    }
+
+    .About_our_school-text-link_2 {
+        margin-left: 368px;
+        width: 312px;
+        height: 92px;
+    }
+
+    .About_our_school-text-link_2 img {
+        margin-left: 126.36px;
+    }
+
+    .About_our_school-text-link_2 p {
+        margin-left: 124.28px;
+    }
+
+    .About_our_school-text-link_3 {
+        display: flex;
+        width: 312px;
+    }
+
+    .About_our_school-text-link_3 img {
+        display: flex;
+        margin-left: 126.25px;
+    }
+
+    .About_our_school-text-link_3 p {
+        display: flex;
+        margin-left: 127.19px;
+    }
+
+    .About_our_school-text-link_4 {
+        width: 312px;
+        height: 92px;
+        margin-left: 368px;
+    }
+
+    .About_our_school-text-link_4 img {
+        margin-left: 127.03px;
+    }
+
+    .About_our_school-text-link_4 p {
+        margin-left: 120.78px;
+    }
+
+    .Upcoming_Events {
+        width: 720px;
+        margin-left: 24px;
+    }
+
+    .Upcoming_Events-text {
+        width: 720px;
+    }
+
+    .Parent-Teacher_Conference {
+        width: 672px;
+    }
+
+    .Science_Fair {
+        width: 672px;
+    }
+
+    .View_All_Events {
+        width: 672px;
+    }
+
+    .View_All_Events h1 {
+        margin-left: 272.72px;
     }
 }
 
