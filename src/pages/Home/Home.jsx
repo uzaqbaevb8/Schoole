@@ -6,7 +6,7 @@ const Home = () => {
     <div className='container'>
       <div className='main-conainer'>
         <div className='main'>
-          <div className="main-text">
+          <div className='main-text'>
             <h1>Добро
               пожаловать в
               нашу школу

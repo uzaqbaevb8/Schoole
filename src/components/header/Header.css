@@ -45,13 +45,13 @@
     top: 32px;
     width: 16px;
     height: 16px;
-    margin-left: 294px;
+    margin-left: 260px;
 }
 
 .language_scroll {
     display: flex;
     position: absolute;
-    margin-left: 314px;
+    margin-left: 280px;
     top: 32px;
     width: 16px;
     height: 16px;
@@ -61,7 +61,7 @@
 .theme_switcher {
     display: flex;
     position: absolute;
-    left: 356px;
+    left: 300px;
     width: 16px;
     height: 16px;
     top: 32px;
@@ -85,6 +85,18 @@
 
 .buttom-connect {
     display: none;
+}
+
+.users {
+    display: flex;
+    width: 22.5px;
+    height: 20px;
+    position: absolute;
+    top: 32px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    left: 350px;
 }
 
 

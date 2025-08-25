@@ -1,0 +1,14 @@
+.main-admin {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-admin-inner {
+    display: flex;
+
+}
+
+.main-admin-outlet{
+    padding: 20px;
+}
