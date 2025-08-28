@@ -179,8 +179,8 @@ const Home = () => {
             <p>Лет опыта</p>
           </div>
           <div className='About_our_school-text-link_Learn_more_about_us'>
-            <img src='./public/section_Link_SVG.svg' alt='section_link_SVG.svg' />
             <p>Узнать больше о нас</p>
+            <img src='./public/section_Link_SVG.svg' alt='section_link_SVG.svg' />
           </div>
         </div>
         <div className='Upcoming_Events'>
