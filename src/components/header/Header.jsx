@@ -1,6 +1,6 @@
 import { Sun, Menu, ChevronDown, Globe, Search, User } from 'lucide-react'
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import './Header.css';
 
 
@@ -45,11 +45,8 @@ export const Header = () => {
                         <div className='theme_switcher'>
                             <Sun />
                         </div>
-                        <button className='users'>
-                            <User />
-                        </button>
-                        <div className='buttom-connect'>
-                            <p>Admin</p>
+                        <div className='buttom-Admin'>
+                            <Link to={'admin'}><User /></Link>
                         </div>
                     </div >
                 </div >

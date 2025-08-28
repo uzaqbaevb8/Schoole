@@ -1,11 +1,11 @@
 import React from 'react'
 
-const club = () => {
+const Club = () => {
   return (
     <div>
-      
+      <h1>Club</h1>
     </div>
   )
 }
 
-export default club
+export default Club;

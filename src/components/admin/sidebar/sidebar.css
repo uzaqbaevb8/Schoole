@@ -3,7 +3,8 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
     height: calc(100vh - 50px);
     border-right: 1px solid black;
 }
+

@@ -51,8 +51,10 @@ const Home = () => {
           <div className='computer_classroom'>
             <div className='computer_clasroom_cards-item'>
               <img src='./public/campyuter classrom.png' alt='campyuter classrom.png' />
-              <img src="./public/data-icons.svg" alt="data-icons.svg" className='data-icons' />
               <p>28 апреля 2025</p>
+            </div>
+            <div className='computer_classroom_data-icons'>
+              <img src="./public/data-icons.svg" alt="data-icons.svg" className='data-icons' />
             </div>
             <div className='computer_classroom-paragrouph'>
               <h1>Открытие нового
@@ -68,8 +70,10 @@ const Home = () => {
           <div className='Parental_schedule'>
             <div className='Parental_schedule_cards-item'>
               <img src='./public/Parental schedule.png' alt='Panental schedule.png' />
-              <img src='./public/data-icons.svg' alt='data-icons.svg' className='data-icons' />
               <p>15 апреля 2025</p>
+            </div>
+            <div className='Parental_schedule_data-icons_2'>
+              <img src='./public/data-icons.svg' alt='data-icons.svg' className='data-icons_2' />
             </div>
             <div className='Parental_schedule-paragrouph'>
               <h1>Расписание родительских

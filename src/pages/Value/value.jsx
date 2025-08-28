@@ -3,9 +3,9 @@ import React from 'react'
 const value = () => {
   return (
     <div>
-      <h1>value</h1>
+      <h1>Value</h1>
     </div>
   )
 }
 
-export default value
+export default value;

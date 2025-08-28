@@ -17,7 +17,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 768px;
     height: 80px;
     z-index: 1;
     background: #F7FAFC;
@@ -51,7 +51,7 @@
 .language_scroll {
     display: flex;
     position: absolute;
-    margin-left: 280px;
+    margin-left: 279px;
     top: 32px;
     width: 16px;
     height: 16px;
@@ -61,7 +61,7 @@
 .theme_switcher {
     display: flex;
     position: absolute;
-    left: 300px;
+    left: 312px;
     width: 16px;
     height: 16px;
     top: 32px;
@@ -97,6 +97,15 @@
     border: none;
     cursor: pointer;
     left: 350px;
+}
+
+@media (min-width: 400px) {
+    .buttom-Admin {
+        margin-left: 100px;
+        position: absolute;
+        top: 30px;
+        left: 250px;
+    }
 }
 
 
@@ -155,7 +164,8 @@
 
     .theme_switcher {
         display: flex;
-        margin-left: 200px;
+        position: absolute;
+        right: 0px;
     }
 
     .buttom-connect {
@@ -173,22 +183,22 @@
         top: 26px;
         cursor: pointer;
     }
+
+    .buttom-Admin {
+        display: flex;
+        position: absolute;
+        width: 24px;
+        height: 28px;
+        top: 30px;
+        right: 100px;
+        background-color: red;
+    }
 }
 
 @media (min-width: 1440px) {
-    .buttom-connect {
-        display: flex;
-        margin-left: 1173px;
-        height: 36px;
-        border-radius: 9999px;
-        padding-top: 9px;
-        padding-left: 16px;
-        font-size: 14px;
-        background-color: #2563EB;
-        color: white;
-        top: 26px;
-        cursor: pointer;
-        border: 1px solid;
+
+    .users {
+        display: none;
     }
 
     .menu {
@@ -250,5 +260,12 @@
     .theme_switcher {
         display: flex;
         margin-left: 780px;
+    }
+
+    .buttom-Admin {
+        margin-left: 100px;
+        position: absolute;
+        top: 30px;
+        right: 140px;
     }
 }
