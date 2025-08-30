@@ -23,6 +23,7 @@
         position: relative;
         top: 48px;
         background: #DBEAFE;
+        margin-top: 80px;
     }
 
     .main-text h1 {
@@ -31,18 +32,17 @@
         height: 135px;
         font-size: 36px;
         color: #2D3748;
-        margin-top: 80px;
-        position: relative;
+        position: absolute;
         top: 32px;
-        margin-bottom: 40px;
         margin-left: 32px;
     }
 
     .main-text p {
         display: flex;
+        position: absolute;
+        top: 193px;
         width: 288px;
         height: 108px;
-        padding-top: 26px;
         font-size: 20px;
         line-height: 28px;
         font-weight: 400;
@@ -53,14 +53,16 @@
     .main-text img {
         width: 211px;
         height: 44px;
+        position: absolute;
+        top: 335px;
         margin-left: 32px;
-        margin-top: 64px;
     }
 
     .main-link img {
         width: 168.77px;
         height: 44px;
-        margin-top: 16px;
+        position: absolute;
+        top: 395px;
     }
 
     .section-cards {
@@ -835,7 +837,8 @@
         width: 20px;
         height: 20px;
         margin-left: 175.11px;
-        margin-top: 11px;
+        position: relative;
+        bottom: 6.5px;
     }
 
     .About_our_school-text-link_Learn_more_about_us p {
@@ -849,7 +852,7 @@
         margin-left: 24px;
         margin-top: 16px;
         position: relative;
-        bottom: 39px;
+        top: 11px;
         cursor: pointer;
         justify-content: center;
         align-items: center;
@@ -1583,15 +1586,17 @@
     .main-text h1 {
         width: 505px;
         font-size: 48px;
+        position: absolute;
         margin-left: 48px;
-        padding-top: 42px;
+        bottom: 199px;
     }
 
     .main-text p {
         width: 470px;
         height: 52px;
         margin-left: 48px;
-        margin-top: 26px;
+        position: relative;
+        top: 170px;
         line-height: 28px;
         font-weight: 400;
         color: #4B5563;
@@ -1601,13 +1606,15 @@
         width: 211.19px;
         height: 44px;
         margin-left: 48px;
+        position: relative;
+        top: 170px;
         margin-top: 32px;
     }
 
     .main-link img {
         margin-left: 250px;
         position: relative;
-        top: -100px;
+        top: 90px;
     }
 
     .section {
@@ -1932,7 +1939,7 @@
 
     .Our_Teachers-text h2 {
         display: flex;
-        width: 189px;
+        width: 198px;
         margin-left: 261px;
         position: relative;
         font-size: 30px;
@@ -2272,7 +2279,6 @@
     .Upcoming_Events {
         width: 720px;
         height: 614px;
-        border: 1px solid red;
         margin-left: 24px;
         position: relative;
         bottom: 198px;
@@ -2285,7 +2291,6 @@
         padding-top: 10px;
         border: none;
         margin-bottom: 24px;
-
     }
 
     .Upcoming_Events-text h2 {
@@ -2505,13 +2510,12 @@
     }
 
     .View_All_Events {
-       width: 672px;
-       height: 40px;
-       border-radius: 9999px;
-       background: #EFF6FF;
-       margin-left: 24px;
-       position: relative;
-       border: 1.5px solid #E2E8F0;
+        width: 672px;
+        height: 40px;
+        border-radius: 9999px;
+        margin-left: 24px;
+        position: relative;
+        border: 1.5px solid #E2E8F0;
     }
 
     .View_All_Events h1 {
@@ -2519,7 +2523,6 @@
         height: 20px;
         font-weight: 500;
         font-size: 14px;
-        color: #2563EB;
         margin-left: 296.72px;
         cursor: pointer;
         position: relative;
@@ -2527,14 +2530,1704 @@
     }
 
     .View_All_Events img {
-        width: 12px;
-        height: 12px;
+        width: 16px;
+        height: 16px;
         position: relative;
-        bottom: 7px;
-        left: 418.72px;
+        bottom: 8.5px;
+        left: 407px;
         cursor: pointer;
         color: #2563EB;
     }
+
+    .Photo_Gallery {
+        width: 720px;
+        height: 437px;
+        margin-left: 24px;
+        position: relative;
+        bottom: 104px;
+    }
+
+    .Photo_Gallery-text h2 {
+        width: 198px;
+        height: 36px;
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 34px;
+    }
+
+    .View_All_Photos {
+        width: 162px;
+        height: 40px;
+        border-radius: 9999px;
+        background: #FFFFFF;
+        border: 1px solid #E2E8F0;
+        right: 0px;
+        position: absolute;
+        top: 0px;
+    }
+
+    .View_All_Photos h1 {
+        width: 120px;
+        height: 20px;
+        font-weight: 500;
+        font-size: 14px;
+        cursor: pointer;
+        position: relative;
+        top: 11px;
+        left: 17px;
+    }
+
+    .View_All_Photos img {
+        position: relative;
+        bottom: 9px;
+        left: 129px;
+        cursor: pointer;
+        color: #2563EB;
+    }
+
+    .Photo_Gallery_Students_in_classroom img {
+        width: 229px;
+        height: 172px;
+        position: relative;
+        top: 4px;
+        border-radius: 16px;
+    }
+
+    .Photo_Gallery_labaratory_classroom img {
+        width: 229.50px;
+        height: 172px;
+        position: relative;
+        left: 244px;
+        bottom: 173px;
+        border-radius: 16px;
+    }
+
+    .Photo_Gallery_Sports_activities img {
+        width: 229px;
+        height: 172px;
+        position: relative;
+        left: 490px;
+        bottom: 350px;
+        border-radius: 16px;
+    }
+
+    .Photo_Gallery_School_events img {
+        width: 229px;
+        height: 174px;
+        position: relative;
+        bottom: 336px;
+        border-radius: 16px;
+    }
+
+    .Photo_Gallery_Arts_and_crafts img {
+        width: 229px;
+        height: 174px;
+        position: relative;
+        left: 245px;
+        bottom: 514px;
+        border-radius: 16px;
+    }
+
+    .Photo_Gallery_school_library img {
+        width: 229px;
+        height: 174px;
+        position: relative;
+        left: 490px;
+        bottom: 692px;
+        border-radius: 16px;
+    }
+
+    .footer {
+        width: 768px;
+        height: 470px;
+        background: #FFFFFF;
+        position: relative;
+        top: 44px;
+        padding: 48px 24px 48px 24px;
+    }
+
+    .footer-logo img {
+        width: 26px;
+        position: absolute;
+        top: 48px;
+        left: 24px;
+    }
+
+    .footer-logo-h1 h1 {
+        display: flex;
+        width: 124.69px;
+        height: 28px;
+        font-size: 20px;
+        font-weight: 700;
+        position: absolute;
+        top: 50px;
+        left: 61.11px;
+    }
+
+    .footer-text p {
+        display: flex;
+        width: 130.30px;
+        height: 140px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #4B5563;
+        position: absolute;
+        top: 114px;
+        left: 24px;
+    }
+
+    .footer-socials-Quick_Links h2 {
+        display: flex;
+        width: 103px;
+        height: 28px;
+        font-weight: 700;
+        font-size: 18px;
+        left: 216px;
+        position: absolute;
+        top: 48px;
+    }
+
+    .footer-socials-Quick_Links_About_Us a {
+        display: flex;
+        width: 70.92px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #4B5563;
+        position: absolute;
+        top: 102px;
+        left: 216px;
+        top: 102px;
+        text-decoration: none;
+    }
+
+    .footer-socials-Quick_Links_Education a {
+        display: flex;
+        width: 75.31px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #4B5563;
+        position: absolute;
+        top: 142px;
+        left: 216px;
+    }
+
+    .footer-socials-Quick_Links_News_Events a {
+        display: flex;
+        width: 113px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #4B5563;
+        left: 216px;
+        position: absolute;
+        top: 182px;
+    }
+
+    .footer-socials-Quick_Links_Support a {
+        display: flex;
+        width: 61px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #4B5563;
+        position: absolute;
+        top: 222px;
+        left: 216px;
+    }
+
+    .footer-socials-Quick_Links_Rules_Documents a {
+        display: flex;
+        width: 113px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #4B5563;
+        position: absolute;
+        left: 216px;
+        top: 262px;
+    }
+
+    .footer-socials-Contact_Us-text h2 {
+        display: flex;
+        width: 97px;
+        height: 28px;
+        font-weight: 700;
+        font-size: 18px;
+        right: 261.79px;
+        position: absolute;
+        top: 48px;
+    }
+
+    .footer-socials-Contact_Us-address img {
+        position: absolute;
+        top: 102px;
+        left: 408px;
+    }
+
+    .footer-socials-Contact_Us-address-text p {
+        display: flex;
+        position: absolute;
+        width: 106px;
+        height: 68px;
+        top: 102px;
+        left: 440px;
+        color: #4B5563;
+    }
+
+    .footer-socials-Contact_Us-phone img {
+        position: absolute;
+        top: 202px;
+        left: 408px;
+    }
+
+    .footer-socials-Contact_Us-phone-text p {
+        display: flex;
+        position: absolute;
+        width: 86.06px;
+        height: 44px;
+        color: #4B5563;
+        top: 190px;
+        left: 440px;
+    }
+
+    .footer-socials-Contact_Us-email img {
+        position: absolute;
+        top: 254px;
+        left: 408px;
+    }
+
+    .footer-socials-Contact_Us-email-text p {
+        display: flex;
+        position: absolute;
+        top: 252px;
+        left: 440px;
+        color: #4B5563;
+    }
+
+    .footer-socials-Newsletter h2 {
+        display: flex;
+        position: absolute;
+        top: 48px;
+        right: 70.85px;
+        width: 97.15px;
+        height: 28px;
+        font-weight: 700;
+        font-size: 18px;
+
+    }
+
+    .footer-socials-Facebook img {
+        position: absolute;
+        top: 290px;
+        left: 32.66px;
+    }
+
+    .footer-socials-Instagram img {
+        position: absolute;
+        top: 290px;
+        left: 85.98px;
+    }
+
+    .footer-socials-Twitter img {
+        position: absolute;
+        top: 290px;
+        left: 139.31px;
+    }
+
+    .footer-socials-Newsletter-text p {
+        width: 125.25px;
+        height: 92px;
+        position: absolute;
+        top: 102px;
+        right: 42.75px;
+        color: #4B5563;
+        font-weight: 400;
+
+    }
+
+    .footer-socials-Newsletter-input input {
+        display: flex;
+        position: absolute;
+        width: 144px;
+        height: 40px;
+        right: 24px;
+        top: 212px;
+        border-radius: 9999px;
+        border: 1px solid #D1D5DB;
+        text-align: center;
+    }
+
+    .footer-socials-Newsletter-button {
+        width: 144px;
+        height: 40px;
+        background: #2563EB;
+        border-radius: 9999px;
+        position: absolute;
+        top: 264px;
+        right: 24px;
+    }
+
+    .footer-socials-Newsletter-button button {
+        display: flex;
+        position: absolute;
+        background: transparent;
+        color: #FFFFFF;
+        border: none;
+        left: 38.16px;
+        top: 11px;
+    }
+
+    .footer-socials-Copyright {
+        width: 720px;
+        height: 53px;
+        border-top: 1px solid #E5E7EB;
+        position: absolute;
+        top: 368px;
+    }
+
+    .footer-socials-Copyright p {
+        display: flex;
+        width: 298.26px;
+        height: 17px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #4B5563;
+        position: absolute;
+        top: 34px;
+        left: 211.03px;
+    }
 }
 
-@media (min-width: 1440px) {}
+@media (max-width: 1440px) {
+
+    .main {
+        padding-top: 140px;
+    }
+
+    .main-text {
+        background: #DBEAFE;
+        width: 1216px;
+        height: 503px;
+        margin-left: 24px;
+        border-radius: 24px;
+    }
+
+    .main-text h1 {
+        width: 505px;
+        font-size: 48px;
+        position: absolute;
+        margin-left: 48px;
+        bottom: 199px;
+    }
+
+    .main-text p {
+        width: 470px;
+        height: 52px;
+        margin-left: 48px;
+        position: relative;
+        top: 170px;
+        line-height: 28px;
+        font-weight: 400;
+        color: #4B5563;
+    }
+
+    .main-text img {
+        width: 211.19px;
+        height: 44px;
+        margin-left: 48px;
+        position: relative;
+        top: 170px;
+        margin-top: 32px;
+    }
+
+    .main-link img {
+        margin-left: 250px;
+        position: relative;
+        top: 90px;
+    }
+
+    .section {
+        margin-top: 96px;
+    }
+
+    .section-cards {
+        background: #FFFFFF;
+        width: 720px;
+        height: 250px;
+        border-radius: 16px;
+        margin-left: 24px;
+        margin-bottom: 250px;
+    }
+
+    .section-text h2 {
+        display: flex;
+        margin-left: 24px;
+    }
+
+    .section-text img {
+        display: flex;
+        position: relative;
+        left: 589.64px;
+        bottom: 34px;
+    }
+
+    .section-cards-item img {
+        width: 239px;
+        height: 250px;
+        border-top-left-radius: 16px;
+        border-bottom-left-radius: 16px;
+    }
+
+    .section-csrdas-data img {
+        width: 12px;
+        height: 12px;
+        margin-left: 263px;
+        position: relative;
+        bottom: 231px;
+    }
+
+    .section-csrdas-data p {
+        margin-left: 277px;
+        position: relative;
+        bottom: 250px;
+        color: #6B7280;
+        font-size: 14px;
+    }
+
+    .section-cards-paragrouph h1 {
+        position: relative;
+        font-size: 20px;
+        width: 350px;
+        height: 52px;
+        bottom: 234px;
+        margin-left: 260px;
+    }
+
+    .section-cards-paragrouph p {
+        position: relative;
+        font-size: 16px;
+        font-weight: 400;
+        width: 416px;
+        line-height: 24px;
+        bottom: 225px;
+        margin-left: 260px;
+        color: #64748B;
+    }
+
+    .section-cards-paragrouph img {
+        position: relative;
+        bottom: 207px;
+        left: 260px;
+    }
+
+    .computer_clasroom_cards-item img {
+        width: 240px;
+        height: 228px;
+        border-top-left-radius: 16px;
+        border-bottom-left-radius: 16px;
+    }
+
+    .computer_classroom {
+        background: #FFFFFF;
+        width: 720px;
+        height: 227px;
+        border-radius: 16px;
+        margin-left: 24px;
+        position: relative;
+        bottom: 226px;
+    }
+
+    .computer_clasroom_cards-item p {
+        position: relative;
+        bottom: 209px;
+        left: 275px;
+        width: 108px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #6B7280;
+    }
+
+    .computer_classroom_data-icons img {
+        position: relative;
+        bottom: 230px;
+        left: 260px;
+    }
+
+    .computer_classroom-paragrouph h1 {
+        font-size: 20px;
+        font-weight: 600;
+        position: relative;
+    }
+
+    .computer_classroom-paragrouph p {
+        width: 363px;
+        height: 44px;
+        line-height: 24px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #64748B;
+        position: relative;
+        bottom: 205px;
+        left: 260px;
+    }
+
+    .computer_classroom-paragrouph img {
+        position: relative;
+        bottom: 180px;
+        left: 260px;
+    }
+
+    .Parental_schedule {
+        background: #FFFFFF;
+        width: 720px;
+        height: 227px;
+        border-radius: 16px;
+        margin-left: 24px;
+        position: relative;
+        bottom: 200px;
+    }
+
+    .Parental_schedule img {
+        width: 239px;
+        height: 228px;
+        border-top-left-radius: 16px;
+        border-bottom-left-radius: 16px;
+    }
+
+    .Parental_schedule_data-icons_2 img {
+        width: 13px;
+        height: 13px;
+        position: relative;
+        bottom: 226px;
+        left: 262px;
+    }
+
+    .Parental_schedule_cards-item p {
+        position: relative;
+        width: 106px;
+        font-size: 14px;
+        bottom: 208px;
+        left: 278px;
+        color: #6B7280;
+    }
+
+    .Parental_schedule-paragrouph h1 {
+        position: absolute;
+        top: 59px;
+        font-size: 20px;
+        right: 92px;
+    }
+
+    .Parental_schedule-paragrouph p {
+        position: absolute;
+        top: 95px;
+        font-size: 16px;
+        right: 139px;
+        width: 320px;
+        height: 44px;
+        color: #64748B;
+    }
+
+    .Parental_schedule-paragrouph img {
+        position: absolute;
+        width: 116px;
+        height: 40px;
+        top: 160px;
+        right: 342px;
+    }
+
+    .Quick_links {
+        background: #FFFFFF;
+        width: 720px;
+        height: 452px;
+        position: relative;
+        bottom: 168px;
+        margin-left: 24px;
+        border-radius: 16px;
+    }
+
+    .Quick_links-text {
+        padding-top: 10px;
+        background: #EFF6FF;
+        height: 68px;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+
+    .Quick_links-text h2 {
+        margin-left: 24px;
+        margin-top: 13px;
+        font-size: 20px;
+    }
+
+    .Quick_links-text-link {
+        margin-top: 40px;
+        margin-left: 40px;
+        background-color: #DBEAFE;
+        width: 40px;
+        height: 40px;
+        border-radius: 12px;
+    }
+
+    .Quick_links-text-link img {
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+    }
+
+    .Quick_links-text-link p {
+        display: flex;
+        position: absolute;
+        margin-top: 66px;
+        top: 50px;
+        left: 96px;
+        font-weight: 500;
+    }
+
+    .Quicl_links-text-link_School_documents {
+        margin-top: 40px;
+        margin-left: 40px;
+        background-color: #DBEAFE;
+        width: 40px;
+        height: 40px;
+        border-radius: 12px;
+    }
+
+    .Quicl_links-text-link_School_documents img {
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+    }
+
+    .Quicl_links-text-link_School_documents p {
+        display: flex;
+        position: absolute;
+        margin-top: 66px;
+        top: 132px;
+        left: 96px;
+        font-weight: 500;
+    }
+
+    .Quick_links-text-link_Our_teachers {
+        margin-top: 40px;
+        margin-left: 40px;
+        background-color: #DBEAFE;
+        width: 40px;
+        height: 40px;
+        border-radius: 12px;
+    }
+
+    .Quick_links-text-link_Our_teachers img {
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+    }
+
+    .Quick_links-text-link_Our_teachers p {
+        display: flex;
+        position: absolute;
+        margin-top: 66px;
+        top: 213px;
+        left: 96px;
+        font-weight: 500;
+    }
+
+    .Qucik_links-text-link_Available_courses img {
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+    }
+
+    .Qucik_links-text-link_Available_courses {
+        margin-top: 40px;
+        margin-left: 40px;
+        background-color: #DBEAFE;
+        width: 40px;
+        height: 40px;
+        border-radius: 12px;
+    }
+
+    .Qucik_links-text-link_Available_courses p {
+        display: flex;
+        position: absolute;
+        margin-top: 66px;
+        top: 290px;
+        left: 96px;
+        font-weight: 500;
+    }
+
+    .Our_Teachers {
+        width: 720px;
+        height: 1068px;
+        margin-left: 24px;
+        position: relative;
+        bottom: 74px;
+        margin-bottom: 136px;
+    }
+
+    .Our_Teachers-text h2 {
+        display: flex;
+        width: 198px;
+        margin-left: 261px;
+        position: relative;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .Our_Teachers-text p {
+        display: flex;
+        width: 615px;
+        text-align: center;
+        color: #4B5563;
+        margin-left: 55px;
+        position: relative;
+        top: 14px;
+    }
+
+    .Our_Teachers-cards-item {
+        background: #FFFFFF;
+        width: 344px;
+        height: 444px;
+        border-radius: 16px;
+        position: relative;
+        bottom: 76px;
+        margin-top: 148px;
+    }
+
+    .Our_Teachers-cards-item img {
+        width: 342.5px;
+        height: 344px;
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+    }
+
+    .Our_Teachers-cards-item h1 {
+        font-size: 18px;
+        margin-left: 91px;
+        margin-top: 24px;
+    }
+
+    .Our_Teachers-cards-item h2 {
+        font-size: 14px;
+        color: #2563EB;
+        margin-left: 139px;
+        margin-top: 8px;
+        cursor: pointer;
+        font-weight: 400;
+    }
+
+    .Our_Teachers-cards_2-item {
+        background: #FFFFFF;
+        width: 334px;
+        height: 444px;
+        margin-left: 48px;
+        border-radius: 16px;
+        position: relative;
+        bottom: 520px;
+        left: 336.4px;
+    }
+
+    .Our_Teachers-cards_2-item img {
+        width: 334.5px;
+        height: 344px;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+
+    .Our_Teachers-cards_2-item h1 {
+        font-size: 18px;
+        margin-left: 91px;
+        margin-top: 24px;
+    }
+
+    .Our_Teachers-cards_2-item h2 {
+        font-size: 14px;
+        color: #2563EB;
+        margin-left: 123.50px;
+        margin-top: 8px;
+        cursor: pointer;
+        font-weight: 400;
+    }
+
+    .Our_Teachers-cards_3-item {
+        background: #FFFFFF;
+        width: 344px;
+        height: 444px;
+        border-radius: 16px;
+        position: relative;
+        bottom: 490px;
+    }
+
+    .Our_Teachers-cards_3-item img {
+        width: 342.5px;
+        height: 344px;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+
+    .Our_Teachers-cards_3-item h1 {
+        font-size: 18px;
+        margin-left: 91px;
+        margin-top: 24px;
+    }
+
+    .Our_Teachers-cards_3-item h2 {
+        font-size: 14px;
+        columns: #2663EB;
+        margin-left: 139px;
+        margin-top: 8px;
+        cursor: pointer;
+        font-weight: 400;
+        color: #2563EB;
+    }
+
+    .Our_Teachers-cards_4-item {
+        background: #FFFFFF;
+        width: 334px;
+        height: 444px;
+        margin-left: 48px;
+        border-radius: 16px;
+        position: relative;
+        bottom: 934px;
+        left: 336.4px;
+    }
+
+    .Our_Teachers-cards_4-item img {
+        width: 334px;
+        height: 343px;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+
+    .Our_Teachers-cards_4-item h1 {
+        font-size: 18px;
+        margin-left: 91px;
+        margin-top: 24px;
+    }
+
+    .Our_Teachers-cards_4-item h2 {
+        font-size: 14px;
+        color: #2563EB;
+        margin-left: 123.50px;
+        margin-top: 8px;
+        cursor: pointer;
+        font-weight: 400;
+    }
+
+    .About_our_school {
+        background: #FFFFFF;
+        width: 720px;
+        height: 688px;
+        border-radius: 16px;
+        margin-left: 24px;
+        position: relative;
+        bottom: 114px;
+        margin-bottom: 136px;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    .About_our_school-image img {
+        width: 720px;
+        height: 192px;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+
+    .About_our_school-image_Gradient img {
+        width: 721px;
+        height: 192px;
+        position: relative;
+        bottom: 192px;
+    }
+
+    .About_our_school-text h1 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 40px;
+        position: relative;
+        bottom: 160px;
+    }
+
+    .About_our_school-text p {
+        width: 640px;
+        height: 88px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #4B5563;
+        margin-left: 40px;
+        position: relative;
+        bottom: 140px;
+    }
+
+    .About_our_school-text-link {
+        width: 312px;
+        height: 92px;
+        background-color: #EFF6FF;
+        position: relative;
+        bottom: 134px;
+        margin-left: 40px;
+        border-radius: 16px;
+        display: flex;
+    }
+
+    .About_our_school-text-link img {
+        width: 81px;
+        height: 36px;
+        margin-left: 116px;
+        margin-top: 16px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .About_our_school-text-link p {
+        font-weight: 500;
+        right: 75px;
+        margin-top: 56px;
+        position: relative;
+        cursor: pointer;
+        color: #4B5563;
+        font-size: 14px;
+    }
+
+    .About_our_school-text-link_2 {
+        width: 312px;
+        height: 92px;
+        background-color: #EFF6FF;
+        position: relative;
+        bottom: 225px;
+        margin-left: 368px;
+        border-radius: 16px;
+        display: flex;
+    }
+
+    .About_our_school-text-link_2 img {
+        width: 60px;
+        height: 36px;
+        margin-left: 126px;
+        margin-top: 16px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .About_our_school-text-link_2 p {
+        font-weight: 500;
+        right: 65px;
+        margin-top: 56px;
+        position: relative;
+        cursor: pointer;
+        color: #4B5563;
+        font-size: 14px;
+    }
+
+    .About_our_school-text-link_3 {
+        width: 312px;
+        height: 92px;
+        background-color: #EFF6FF;
+        position: relative;
+        bottom: 225px;
+        margin-left: 40px;
+        margin-top: 16px;
+        border-radius: 16px;
+        display: flex;
+    }
+
+    .About_our_school-text-link_3 img {
+        width: 60px;
+        height: 36px;
+        margin-left: 126px;
+        margin-top: 16px;
+        cursor: pointer;
+    }
+
+    .About_our_school-text-link_3 p {
+        font-weight: 500;
+        right: 60px;
+        margin-top: 56px;
+        position: relative;
+        cursor: pointer;
+        color: #4B5563;
+        font-size: 14px;
+    }
+
+    .About_our_school-text-link_4 {
+        width: 312px;
+        height: 92px;
+        background-color: #EFF6FF;
+        position: relative;
+        bottom: 318px;
+        margin-left: 368px;
+        border-radius: 16px;
+    }
+
+    .About_our_school-text-link_4 img {
+        width: 58px;
+        height: 36px;
+        margin-left: 127px;
+        margin-top: 16px;
+        position: relative;
+        cursor: pointer;
+        font-size: 30px;
+    }
+
+    .About_our_school-text-link_4 p {
+        font-weight: 400;
+        margin-left: 117px;
+        color: #4B5563;
+    }
+
+    .About_our_school-text-link_Learn_more_about_us {
+        background: #2563EB;
+        width: 215.11000061035156px;
+        height: 40px;
+        border-radius: 99999px;
+        position: relative;
+        bottom: 284px;
+        margin-left: 40px;
+        display: flex;
+        cursor: pointer;
+    }
+
+    .About_our_school-text-link_Learn_more_about_us img {
+        height: 16px;
+        margin-top: 12px;
+        left: 8px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .About_our_school-text-link_Learn_more_about_us p {
+        margin-top: 11px;
+        margin-bottom: 11px;
+        color: #FFFFFF;
+        font-size: 14px;
+        margin-left: 24px;
+        cursor: pointer;
+    }
+
+    .Upcoming_Events {
+        width: 720px;
+        height: 614px;
+        margin-left: 24px;
+        position: relative;
+        bottom: 198px;
+        background: #FFFFFF;
+    }
+
+    .Upcoming_Events-text {
+        background: #EFF6FF;
+        height: 68px;
+        padding-top: 10px;
+        border: none;
+        margin-bottom: 24px;
+    }
+
+    .Upcoming_Events-text h2 {
+        font-size: 20px;
+        margin-left: 24px;
+        color: #111827;
+        margin-top: 13px;
+    }
+
+    .Parent-Teacher_Conference {
+        margin-left: 24px;
+    }
+
+    .Science_Fair {
+        margin-left: 24px;
+    }
+
+    .End_of_Year_Concert {
+        margin-left: 24px;
+    }
+
+    .Parent-Teacher_Conference {
+        width: 672px;
+        height: 130px;
+        border-bottom: 1px solid #F3F4F6;
+    }
+
+    .Parent-Teacher_Conference-date img {
+        width: 16px;
+        height: 16px;
+        margin-top: 10px;
+    }
+
+    .Parnet-Teacher_Conference-item h1 {
+        font-size: 18px;
+    }
+
+    .Parent-Teacher_Conference-date p {
+        display: flex;
+        position: relative;
+        width: 121px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4B5563;
+        margin-left: 24px;
+        bottom: 22px;
+    }
+
+    .Parent-Teacher_Conference-time img {
+        width: 16px;
+        height: 16px;
+        position: relative;
+        bottom: 13px;
+    }
+
+    .Parent-Teacher_Conference-time p {
+        display: flex;
+        position: relative;
+        height: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4B5563;
+        margin-left: 24px;
+        bottom: 35px
+    }
+
+    .Parent-Teacher_Conference-Location img {
+        width: 16px;
+        height: 16px;
+        position: relative;
+        bottom: 27px;
+    }
+
+    .Parent-Teacher_Conference-Location p {
+        display: flex;
+        position: relative;
+        height: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4B5563;
+        bottom: 49px;
+        margin-left: 24px;
+    }
+
+    .Science_Fair {
+        width: 672px;
+        height: 130px;
+        border-bottom: 1px solid #F3F4F6;
+    }
+
+    .Science_Fair-item h1 {
+        font-size: 18px;
+        margin-top: 24px;
+    }
+
+    .Science_Fair-date img {
+        width: 16px;
+        height: 16px;
+        margin-top: 10px;
+    }
+
+    .Science_Fair-date p {
+        display: flex;
+        position: relative;
+        width: 92px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4B5563;
+        margin-left: 24px;
+        bottom: 22px;
+    }
+
+    .Science_Fair-time img {
+        width: 16px;
+        height: 16px;
+        position: relative;
+        bottom: 13px;
+    }
+
+    .Science_Fair-time p {
+        display: flex;
+        position: relative;
+        height: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4B5563;
+        margin-left: 24px;
+        bottom: 35px;
+    }
+
+    .Science_Fair-Location img {
+        width: 16px;
+        height: 16px;
+        position: relative;
+        bottom: 27px;
+    }
+
+    .Science_Fair-Location p {
+        display: flex;
+        position: relative;
+        height: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4B5563;
+        bottom: 49px;
+        margin-left: 24px;
+    }
+
+    .End_of_Year_Concert-item h1 {
+        font-size: 18px;
+        margin-top: 24px;
+    }
+
+    .End_of_Year_Concert-date img {
+        width: 16px;
+        height: 16px;
+        margin-top: 10px;
+    }
+
+    .End_of_Year_Concert-date p {
+        display: flex;
+        position: relative;
+        width: 140px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4B5563;
+        margin-left: 24px;
+        bottom: 22px;
+    }
+
+    .End_of_Year_Concert-time img {
+        width: 16px;
+        height: 16px;
+        position: relative;
+        bottom: 13px;
+    }
+
+    .End_of_Year_Concert-time p {
+        display: flex;
+        position: relative;
+        height: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4B5563;
+        margin-left: 24px;
+        bottom: 35px;
+    }
+
+    .End_of_Year_Concert-Location img {
+        width: 16px;
+        height: 16px;
+        position: relative;
+        bottom: 27px;
+    }
+
+    .End_of_Year_Concert-Location p {
+        display: flex;
+        position: relative;
+        height: 20px;
+        font-weight: 400;
+        font-style: 14px;
+        line-height: 20px;
+        color: #4B5563;
+        bottom: 49px;
+        margin-left: 24px;
+    }
+
+    .View_All_Events {
+        width: 672px;
+        height: 40px;
+        border-radius: 9999px;
+        margin-left: 24px;
+        position: relative;
+        border: 1.5px solid #E2E8F0;
+    }
+
+    .View_All_Events h1 {
+        width: 120px;
+        height: 20px;
+        font-weight: 500;
+        font-size: 14px;
+        margin-left: 296.72px;
+        cursor: pointer;
+        position: relative;
+        top: 11px;
+    }
+
+    .View_All_Events img {
+        width: 16px;
+        height: 16px;
+        position: relative;
+        bottom: 8.5px;
+        left: 407px;
+        cursor: pointer;
+        color: #2563EB;
+    }
+
+    .Photo_Gallery {
+        width: 720px;
+        height: 437px;
+        margin-left: 24px;
+        position: relative;
+        bottom: 104px;
+    }
+
+    .Photo_Gallery-text h2 {
+        width: 198px;
+        height: 36px;
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 34px;
+    }
+
+    .View_All_Photos {
+        width: 162px;
+        height: 40px;
+        border-radius: 9999px;
+        background: #FFFFFF;
+        border: 1px solid #E2E8F0;
+        right: 0px;
+        position: absolute;
+        top: 0px;
+    }
+
+    .View_All_Photos h1 {
+        width: 120px;
+        height: 20px;
+        font-weight: 500;
+        font-size: 14px;
+        cursor: pointer;
+        position: relative;
+        top: 11px;
+        left: 17px;
+    }
+
+    .View_All_Photos img {
+        position: relative;
+        bottom: 9px;
+        left: 129px;
+        cursor: pointer;
+        color: #2563EB;
+    }
+
+    .Photo_Gallery_Students_in_classroom img {
+        width: 229px;
+        height: 172px;
+        position: relative;
+        top: 4px;
+        border-radius: 16px;
+    }
+
+    .Photo_Gallery_labaratory_classroom img {
+        width: 229.50px;
+        height: 172px;
+        position: relative;
+        left: 244px;
+        bottom: 173px;
+        border-radius: 16px;
+    }
+
+    .Photo_Gallery_Sports_activities img {
+        width: 229px;
+        height: 172px;
+        position: relative;
+        left: 490px;
+        bottom: 350px;
+        border-radius: 16px;
+    }
+
+    .Photo_Gallery_School_events img {
+        width: 229px;
+        height: 174px;
+        position: relative;
+        bottom: 336px;
+        border-radius: 16px;
+    }
+
+    .Photo_Gallery_Arts_and_crafts img {
+        width: 229px;
+        height: 174px;
+        position: relative;
+        left: 245px;
+        bottom: 514px;
+        border-radius: 16px;
+    }
+
+    .Photo_Gallery_school_library img {
+        width: 229px;
+        height: 174px;
+        position: relative;
+        left: 490px;
+        bottom: 692px;
+        border-radius: 16px;
+    }
+
+    .footer {
+        width: 768px;
+        height: 470px;
+        background: #FFFFFF;
+        position: relative;
+        top: 44px;
+        padding: 48px 24px 48px 24px;
+    }
+
+    .footer-logo img {
+        width: 26px;
+        position: absolute;
+        top: 48px;
+        left: 24px;
+    }
+
+    .footer-logo-h1 h1 {
+        display: flex;
+        width: 124.69px;
+        height: 28px;
+        font-size: 20px;
+        font-weight: 700;
+        position: absolute;
+        top: 50px;
+        left: 61.11px;
+    }
+
+    .footer-text p {
+        display: flex;
+        width: 130.30px;
+        height: 140px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #4B5563;
+        position: absolute;
+        top: 114px;
+        left: 24px;
+    }
+
+    .footer-socials-Quick_Links h2 {
+        display: flex;
+        width: 103px;
+        height: 28px;
+        font-weight: 700;
+        font-size: 18px;
+        left: 216px;
+        position: absolute;
+        top: 48px;
+    }
+
+    .footer-socials-Quick_Links_About_Us a {
+        display: flex;
+        width: 70.92px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #4B5563;
+        position: absolute;
+        top: 102px;
+        left: 216px;
+        top: 102px;
+        text-decoration: none;
+    }
+
+    .footer-socials-Quick_Links_Education a {
+        display: flex;
+        width: 75.31px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #4B5563;
+        position: absolute;
+        top: 142px;
+        left: 216px;
+    }
+
+    .footer-socials-Quick_Links_News_Events a {
+        display: flex;
+        width: 113px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #4B5563;
+        left: 216px;
+        position: absolute;
+        top: 182px;
+    }
+
+    .footer-socials-Quick_Links_Support a {
+        display: flex;
+        width: 61px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #4B5563;
+        position: absolute;
+        top: 222px;
+        left: 216px;
+    }
+
+    .footer-socials-Quick_Links_Rules_Documents a {
+        display: flex;
+        width: 113px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #4B5563;
+        position: absolute;
+        left: 216px;
+        top: 262px;
+    }
+
+    .footer-socials-Contact_Us-text h2 {
+        display: flex;
+        width: 97px;
+        height: 28px;
+        font-weight: 700;
+        font-size: 18px;
+        right: 261.79px;
+        position: absolute;
+        top: 48px;
+    }
+
+    .footer-socials-Contact_Us-address img {
+        position: absolute;
+        top: 102px;
+        left: 408px;
+    }
+
+    .footer-socials-Contact_Us-address-text p {
+        display: flex;
+        position: absolute;
+        width: 106px;
+        height: 68px;
+        top: 102px;
+        left: 440px;
+        color: #4B5563;
+    }
+
+    .footer-socials-Contact_Us-phone img {
+        position: absolute;
+        top: 202px;
+        left: 408px;
+    }
+
+    .footer-socials-Contact_Us-phone-text p {
+        display: flex;
+        position: absolute;
+        width: 86.06px;
+        height: 44px;
+        color: #4B5563;
+        top: 190px;
+        left: 440px;
+    }
+
+    .footer-socials-Contact_Us-email img {
+        position: absolute;
+        top: 254px;
+        left: 408px;
+    }
+
+    .footer-socials-Contact_Us-email-text p {
+        display: flex;
+        position: absolute;
+        top: 252px;
+        left: 440px;
+        color: #4B5563;
+    }
+
+    .footer-socials-Newsletter h2 {
+        display: flex;
+        position: absolute;
+        top: 48px;
+        right: 70.85px;
+        width: 97.15px;
+        height: 28px;
+        font-weight: 700;
+        font-size: 18px;
+
+    }
+
+    .footer-socials-Facebook img {
+        position: absolute;
+        top: 290px;
+        left: 32.66px;
+    }
+
+    .footer-socials-Instagram img {
+        position: absolute;
+        top: 290px;
+        left: 85.98px;
+    }
+
+    .footer-socials-Twitter img {
+        position: absolute;
+        top: 290px;
+        left: 139.31px;
+    }
+
+    .footer-socials-Newsletter-text p {
+        width: 125.25px;
+        height: 92px;
+        position: absolute;
+        top: 102px;
+        right: 42.75px;
+        color: #4B5563;
+        font-weight: 400;
+
+    }
+
+    .footer-socials-Newsletter-input input {
+        display: flex;
+        position: absolute;
+        width: 144px;
+        height: 40px;
+        right: 24px;
+        top: 212px;
+        border-radius: 9999px;
+        border: 1px solid #D1D5DB;
+        text-align: center;
+    }
+
+    .footer-socials-Newsletter-button {
+        width: 144px;
+        height: 40px;
+        background: #2563EB;
+        border-radius: 9999px;
+        position: absolute;
+        top: 264px;
+        right: 24px;
+    }
+
+    .footer-socials-Newsletter-button button {
+        display: flex;
+        position: absolute;
+        background: transparent;
+        color: #FFFFFF;
+        border: none;
+        left: 38.16px;
+        top: 11px;
+    }
+
+    .footer-socials-Copyright {
+        width: 720px;
+        height: 53px;
+        border-top: 1px solid #E5E7EB;
+        position: absolute;
+        top: 368px;
+    }
+
+    .footer-socials-Copyright p {
+        display: flex;
+        width: 298.26px;
+        height: 17px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #4B5563;
+        position: absolute;
+        top: 34px;
+        left: 211.03px;
+    }
+
+}

@@ -16,7 +16,7 @@
 .header {
     position: fixed;
     top: 0;
-    left: 0;
+
     width: 768px;
     height: 80px;
     z-index: 1;
@@ -101,10 +101,9 @@
 
 @media (min-width: 400px) {
     .buttom-Admin {
-        margin-left: 100px;
         position: absolute;
-        top: 30px;
-        left: 250px;
+        top: 32px;
+        left: 350px;
     }
 }
 
@@ -139,16 +138,16 @@
 
     .language_switcher {
         display: flex;
-        position: fixed;
-        left: 135px;
+        position: absolute;
+        right: 290px;
         top: 32px;
     }
 
     .language {
         display: flex;
-        position: fixed;
+        position: absolute;
         top: 36px;
-        left: 448px;
+        left: 480px;
         width: 49.69px;
         height: 16px;
         font-weight: 500;
@@ -158,44 +157,30 @@
 
     .language_scroll {
         display: flex;
-        position: fixed;
-        left: 185px;
+        position: absolute;
+        right: 220px;
     }
 
     .theme_switcher {
         display: flex;
         position: absolute;
-        right: 0px;
-    }
-
-    .buttom-connect {
-        display: flex;
-        margin-left: 604.81px;
-        position: fixed;
-        border-radius: 9999px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 16px;
-        padding-right: 16px;
-        font-size: 14px;
-        background-color: #2563EB;
-        color: white;
-        top: 26px;
-        cursor: pointer;
+        left: 590px;
     }
 
     .buttom-Admin {
-        display: flex;
         position: absolute;
-        width: 24px;
-        height: 28px;
-        top: 30px;
-        right: 100px;
-        background-color: red;
+        top: 32px;
+        left: 650px;
     }
 }
 
 @media (min-width: 1440px) {
+
+    .header {
+        width: 1440px;
+        height: 80px;
+        background: #F7FAFC;
+    }
 
     .users {
         display: none;
@@ -219,14 +204,15 @@
     .logo_2 {
         display: flex;
         position: absolute;
-        left: 48px;
+        left: 38px;
+        top: 20px;
     }
 
     .logo-text {
         display: flex;
         position: absolute;
         top: 26px;
-        left: 170px;
+        left: 164px;
         width: 124.69px;
         height: 28px;
         font-weight: 700;
@@ -241,31 +227,34 @@
     .language_switcher {
         display: flex;
         position: fixed;
-        margin-left: 876.94px;
+        right: 416.55px;
+    
     }
 
     .language {
         display: flex;
         position: fixed;
         top: 35px;
-        margin-left: 585px;
+        left: 1027.45px;
     }
 
     .language_scroll {
         display: flex;
         position: fixed;
-        left: 770px;
+        right: 343.2px;
     }
 
     .theme_switcher {
         display: flex;
-        margin-left: 780px;
+        position: absolute;
+        left: 1160px;
     }
 
     .buttom-Admin {
-        margin-left: 100px;
+        width: 16px;
+        height: 16px;
         position: absolute;
-        top: 30px;
-        right: 140px;
+        top: 32px;
+        left: 1250px;
     }
 }

@@ -16,6 +16,7 @@ const Home = () => {
               а ученики готовятся к
               вызовам завтрашнего дня.
             </p>
+
             <img src='./public/LinkСвязаться с нами.svg' alt="LinkСвязаться с нами.svg" />
             <div className="main-link">
               <img src='./public/Link.svg' alt="Link" />
