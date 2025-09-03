@@ -226,21 +226,18 @@
 
     .language_switcher {
         display: flex;
-        position: fixed;
         right: 416.55px;
-    
     }
 
     .language {
         display: flex;
-        position: fixed;
         top: 35px;
         left: 1027.45px;
     }
 
     .language_scroll {
         display: flex;
-        position: fixed;
+        position: absolute;
         right: 343.2px;
     }
 

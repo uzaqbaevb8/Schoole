@@ -16,10 +16,24 @@ const Home = () => {
               а ученики готовятся к
               вызовам завтрашнего дня.
             </p>
-
-            <img src='./public/LinkСвязаться с нами.svg' alt="LinkСвязаться с нами.svg" />
+            <button>Связаться с нами </button>
             <div className="main-link">
-              <img src='./public/Link.svg' alt="Link" />
+              <button>Узнать больше</button>
+            </div>
+            <div className='main-students'>
+              <img src="./public/Students-classroom.png" alt="" />
+            </div>
+            <div className='main-students-excellence'>
+              <img src="./public/Excellence_in_Education.svg" alt="Excellence_in_Education.svg" />
+              <h5>Excellence in Education</h5>
+              <p>Since 1998</p>
+            </div>
+            <div className='number_of_participants'>
+              <img src="./public/participants.svg" alt="participants" />
+            </div>
+            <div className='number_of_participants'>
+              <h5>500+ Students</h5>
+              <p>Join our community</p>
             </div>
           </div>
         </div>
@@ -28,7 +42,9 @@ const Home = () => {
             <h2>Последние
               новости
             </h2>
-            <img src='./public/Link Смотреть все.svg' alt='Link Смотреть все.svg' />
+            <button>
+              Смотреть все
+            </button>
           </div>
           <div className='section-cards'>
             <div className='section-cards-item'>
@@ -65,7 +81,9 @@ const Home = () => {
                 новой современной компьютерной
                 лаборатории.
               </p>
-              <img src='./public/Link Читать далее.svg' alt='Link Читать далее.svg' />
+              <div className='computer_classroom-paragrouph-link'>
+                <img src='./public/Link Читать далее.svg' alt='Link Читать далее.svg' />
+              </div>
             </div>
           </div>
           <div className='Parental_schedule'>
@@ -83,7 +101,9 @@ const Home = () => {
               <p>Опубликовано расписание
                 предстоящих родительских собраний.
               </p>
-              <img src='./public/Link Читать далее.svg' alt='Link Читать далее.svg' />
+              <div className='Parental_schedule-link'>
+                <img src='./public/Link Читать далее.svg' alt='Link Читать далее.svg' />
+              </div>
             </div>
           </div>
         </div>
@@ -247,27 +267,14 @@ const Home = () => {
         <div className='Photo_Gallery'>
           <div className='Photo_Gallery-text'>
             <h2>Photo Gallery</h2>
+            <button>View All Photos</button>
           </div>
           <div className='View_All_Photos'>
-            <h1>View All Photos</h1>
-            <img src='./public/View All Photos button.svg' alt='View All Photos button' />
-          </div>
-          <div className='Photo_Gallery_Students_in_classroom'>
             <img src="./public/Students in classroom.png" alt="Students in classroom.png" />
-          </div>
-          <div className='Photo_Gallery_labaratory_classroom'>
             <img src='./public/Science laboratory.png' alt='Scince Labaratory.png' />
-          </div>
-          <div className='Photo_Gallery_Sports_activities'>
             <img src='./public/Sports activities.png' alt='Sports activities.png' />
-          </div>
-          <div className='Photo_Gallery_School_events'>
             <img src='./public/Arts and crafts.png' alt='Arts and crafts.png' />
-          </div>
-          <div className='Photo_Gallery_Arts_and_crafts'>
             <img src='./public/Gallery_Arts_and_crafts.png' alt='Gallery_Arts_and_crafts.png' />
-          </div>
-          <div className='Photo_Gallery_school_library'>
             <img src='./public/School library.png' alt='School library.png' />
           </div>
         </div>
