@@ -358,7 +358,7 @@
         margin: 10px;
     }
 
-    .Quick_links-text-link p {
+    .Quick_links-text-link button {
         display: flex;
         white-space: nowrap;
         height: 24px;
@@ -366,6 +366,9 @@
         font-size: 16px;
         margin-left: 16px;
         margin-top: 10px;
+        border: none;
+        background: transparent;
+        font-size: 16px;
     }
 
     .Quicl_links-text-link_School_documents {
@@ -385,7 +388,7 @@
         margin: 10px;
     }
 
-    .Quicl_links-text-link_School_documents P {
+    .Quicl_links-text-link_School_documents button {
         display: flex;
         white-space: nowrap;
         height: 24px;
@@ -394,6 +397,8 @@
         margin-left: 16px;
         margin-top: 10px;
         line-height: 24px;
+        background: none;
+        border: none;
     }
 
     .Quick_links-text-link_School_documents:hover {
@@ -407,7 +412,7 @@
         margin: 10px;
     }
 
-    .Quick_links-text-link_Our_teachers p {
+    .Quick_links-text-link_Our_teachers button {
         display: flex;
         white-space: nowrap;
         height: 24px;
@@ -416,6 +421,8 @@
         margin-left: 16px;
         margin-top: 10px;
         line-height: 24px;
+        border: none;
+        background: transparent;
     }
 
     .Quick_links-text-link_Our_teachers:hover {
@@ -432,36 +439,32 @@
         border-radius: 12px;
     }
 
-    .Qucik_links-text-link_Available_courses img {
+    .Qucik_links-text-link_Available_courses button {
         display: flex;
-        width: 20px;
-        height: 20px;
-        margin: 10px;
-    }
-
-    .Qucik_links-text-link_Available_courses p {
-        display: flex;
-        white-space: nowrap;
+        width: 144px;
+        margin-left: 96px;
+        font-size: 16px;
         height: 24px;
         font-weight: 500;
-        font-size: 16px;
-        margin-left: 16px;
-        margin-top: 10px;
-        line-height: 24px;
+        background: transparent;
+        border: none;
+        margin-top: -30px;
     }
+
 
     .Qucik_links-text-link_Available_courses:hover {
         background: #BFDBFE;
     }
 
-    .Qucik_links-text-link_Available_courses {
+    .Qucik_links-text-link_Available_courses img{
         display: flex;
         background: #DBEAFE;
         width: 40px;
         height: 40px;
-        margin-top: 40px;
+        margin-top: 32px;
         margin-left: 40px;
         border-radius: 12px;
+        padding: 10px;
     }
 
     .Our_Teachers {
@@ -1550,21 +1553,33 @@
         color: #4B5563;
     }
 
-    .main-text button {
-        width: 160px;
-        height: 40px;
+    .connect {
+        width: 211.19px;
+        height: 44px;
         border-radius: 9999px;
-        background: hsl(0, 100%, 50%);
-        color: #020817;
+        background: #2563EB;
         border: 1px solid #D1D5DB;
+        color: #FFFFFF;
         position: relative;
         top: 180px;
         margin-left: 48px;
         cursor: pointer;
         font-size: 14px;
-        font-weight: 500;
+        margin-top: 30px;
     }
-    
+
+    .main-link button {
+        width: 169px;
+        height: 44px;
+        background: #FFFFFF;
+        border-radius: 9999px;
+        cursor: pointer;
+        position: relative;
+        top: 136.5px;
+        left: 275px;
+        border: 1px solid #D1D5DB;
+    }
+
     .section {
         margin-top: 96px;
         width: auto;
@@ -1580,15 +1595,23 @@
     }
 
     .section-text h2 {
-        display: flex;
         margin-left: 24px;
+        width: 242px;
     }
 
-    .section-text img {
+    .section-text button {
         display: flex;
+        margin-left: 590px;
+        margin-bottom: 32px;
         position: relative;
-        left: 589.64px;
-        bottom: 34px;
+        bottom: 30px;
+        background: #FFFFFF;
+        justify-content: center;
+        align-items: center;
+        width: 154px;
+        height: 40px;
+        border-radius: 9999px;
+        border: 1px solid #E2E8F0;
     }
 
     .section-cards-item img {
@@ -1800,13 +1823,17 @@
         margin: 10px;
     }
 
-    .Quick_links-text-link p {
+    .Quick_links-text-link button {
         display: flex;
         position: absolute;
-        margin-top: 66px;
-        top: 50px;
+        margin-top: 64px;
+        top: 55px;
         left: 96px;
+        font-size: 16px;
         font-weight: 500;
+        border: none;
+        background: transparent;
+        cursor: pointer;
     }
 
     .Quicl_links-text-link_School_documents {
@@ -1824,13 +1851,17 @@
         margin: 10px;
     }
 
-    .Quicl_links-text-link_School_documents p {
+    .Quicl_links-text-link_School_documents button {
         display: flex;
         position: absolute;
         margin-top: 66px;
         top: 132px;
         left: 96px;
+        background: transparent;
+        font-size: 16px;
         font-weight: 500;
+        cursor: pointer;
+        border: none;
     }
 
     .Quick_links-text-link_Our_teachers {
@@ -1848,13 +1879,16 @@
         margin: 10px;
     }
 
-    .Quick_links-text-link_Our_teachers p {
+    .Quick_links-text-link_Our_teachers button {
         display: flex;
         position: absolute;
         margin-top: 66px;
         top: 213px;
         left: 96px;
         font-weight: 500;
+        border: none;
+        background: transparent;
+        font-size: 16px;
     }
 
     .Qucik_links-text-link_Available_courses img {
@@ -1872,13 +1906,16 @@
         border-radius: 12px;
     }
 
-    .Qucik_links-text-link_Available_courses p {
+    .Qucik_links-text-link_Available_courses button {
         display: flex;
         position: absolute;
         margin-top: 66px;
         top: 290px;
         left: 96px;
         font-weight: 500;
+        border: none;
+        background: transparent;
+        font-size: 16px;
     }
 
     .Our_Teachers {

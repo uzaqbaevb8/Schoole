@@ -16,8 +16,8 @@ const Home = () => {
               а ученики готовятся к
               вызовам завтрашнего дня.
             </p>
-            <button>Связаться с нами </button>
-            <div className="main-link">
+            <button className="connect">Связаться с нами </button>
+            <div className='main-link'>
               <button>Узнать больше</button>
             </div>
             <div className='main-students'>
@@ -113,19 +113,19 @@ const Home = () => {
           </div>
           <div className='Quick_links-text-link'>
             <img src="./public/Lesson schedule.svg" alt="Lesson schedule.svg" />
-            <p>Расписание уроков</p>
+            <button>Расписание уроков</button>
           </div>
           <div className='Quicl_links-text-link_School_documents'>
             <img src="./public/School documents.svg" alt="School documents.svg" />
-            <p>Школьные документы</p>
+            <button>Школьные документы</button>
           </div>
           <div className='Quick_links-text-link_Our_teachers'>
             <img src="./public/Our teachers.svg" alt='Our teachers.svg' />
-            <p>Наши учителя</p>
+            <button>Наши учителя</button>
           </div>
           <div className='Qucik_links-text-link_Available_courses'>
             <img src="./public/Available courses.svg" alt='Available courses.svg' />
-            <p>Доступные курсы</p>
+            <button>Доступные курсы</button>
           </div>
         </div>
         <div className='Our_Teachers'>
@@ -143,13 +143,13 @@ const Home = () => {
               <h2>Principal</h2>
             </div>
           </div>
-          <dic className='Our_Teachers-cards_2'>
+          <div className='Our_Teachers-cards_2'>
             <div className='Our_Teachers-cards_2-item'>
               <img src='./public/teacher2.png' alt='teacher2.png' />
               <h1>Prof. Michael Chen</h1>
               <h2>Mathematics</h2>
             </div>
-          </dic>
+          </div>
           <div className='Our_Teachers-cards_3'>
             <div className='Our_Teachers-cards_3-item'>
               <img src='./public/teacher3.png' alt='teacher3.png' />
