@@ -1,0 +1,161 @@
+.header {
+    padding: 30px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background: #F7FAFC;
+}
+
+.mobil_menu {
+    display: none;
+    width: 16px;
+    height: 16px;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.language_switcher {
+    display: flex;
+    width: 16px;
+    height: 16px;
+}
+
+.language_scroll {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    color: #a4a5a5;
+}
+
+.theme_switcher {
+    display: flex;
+    width: 16px;
+    height: 16px;
+}
+
+.logo-text {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+
+.language {
+    display: none;
+}
+
+.heaer-right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+@media (min-width: 400px) {
+    .header {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .mobil_menu {
+        display: flex;
+        margin-left: 36px;
+    }
+
+    .logo_2 {
+        display: flex;
+        margin-left: 10px;
+    }
+
+    .logo-text {
+        display: flex;
+        width: 124.69px;
+        height: 28px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        color: #020817;
+    }
+
+    .language_switcher {
+        display: flex; 
+    }
+
+    .language {
+        display: flex;
+        width: 49.69px;
+        height: 16px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .language_scroll {
+        display: flex;
+    }
+
+    .theme_switcher {
+        display: flex;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .users {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        width: 525.28px;
+        height: 36px;
+        justify-content: center;
+        align-items: center;
+        gap: 25.5px;
+    }
+
+    .mobil_menu {
+        display: none;
+    }
+
+    .logo_2 {
+        display: flex;
+    }
+
+    .logo-text {
+        display: flex;
+        width: 124.69px;
+        height: 28px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .language_switcher {
+        display: flex;
+    }
+
+    .language {
+        display: flex;
+    }
+
+    .language_scroll {
+        display: flex;
+    }
+
+    .theme_switcher {
+        display: flex;
+    }
+
+    .buttom-Admin {
+        width: 16px;
+        height: 16px;
+    }
+}

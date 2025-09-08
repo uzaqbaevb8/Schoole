@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 20px 24px; /* Consolidated padding */
+    margin: 0 auto;
+}
+
+.header {
+    display: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.logo {
+    display: flex;
+    margin-left: 112px;
+    position: absolute;
+    top: 20px;
+}
+
+.logo-text {
+    display: flex;
+    padding-left: 164px;
+    padding-top: 30px;
+    width: 124px;
+    height: 28px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 600px;
+    margin-top: 30px;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.search {
+    display: flex;
+    margin-right: 468.55px;
+    margin-top: 32px;
+}
+
+.language_switcher {
+    display: flex;
+    position: absolute;
+    left: 284px;
+    width: 16px;
+    height: 16px;
+    margin-left: 100px;
+    margin-top: -25px;
+}
+
+.language {
+    display: flex;
+    margin-left: 130px;
+    margin-top: -20px;
+    width: 49.69px;
+    height: 16px;
+    font-weight: 500; /* Fixed invalid font-style */
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.language_scroll {
+    display: flex;
+    margin-left: 185px;
+    margin-top: -20px;
+    opacity: 0.5;
+}
+
+.theme_switcher {
+    display: flex;
+    position: absolute;
+    left: 356px;
+    width: 16px;
+    height: 16px;
+    top: 40px;
+}
+
+@media (min-width:399px) {
+    .language,
+    .logo-text,
+    .search,
+    .nav-bar {
+        display: none;
+    }
+
+    .mobil_menu {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        margin-left: 28px;
+        margin-top: 25px;
+    }
+
+    .logo_2 {
+        position: relative;
+        right: 50px;
+        top: 27px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .language_scroll {
+        width: 16px;
+        height: 16px;
+        position: relative;
+        left: 105px;
+        top: 20px;
+    }
+
+    .buttom-connect img {
+        display: none;
+    }
+}
+
+@media (min-width:584px) {
+    .buttom-connect {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .logo-text {
+        display: flex;
+        width: 150px;
+        height: 28px;
+        font-size: 15px;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        position: absolute;
+        left: 12px;
+        top: 18px;
+    }
+
+    .search {
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        left: 371px;
+        top: 9px;
+    }
+
+    .language_switcher {
+        position: absolute;
+        left: 423.47px;
+        width: 16px;
+        height: 16px;
+    }
+
+    .language {
+        position: absolute;
+        left: 320px;
+        top: 64px;
+    }
+
+    .language_scroll {
+        width: 16px;
+        height: 16px;
+        position: relative;
+        left: 305px;
+        top: 20px;
+    }
+
+    .theme_switcher {
+        position: absolute;
+        left: 549px;
+        top: 40px;
+    }
+
+    .buttom-connect {
+        position: absolute;
+        left: 610px;
+        top: 32px;
+    }
+}
+
+@media (max-width:1440px) {
+    .logo_2 {
+        display: block;
+        margin-top: -25px;
+    }
+
+    .logo-text {
+        width: 124.69px;
+        margin-top: -20px;
+        position: absolute;
+        margin-left: -160px;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+
+    .mobil_menu {
+        display: none;
+    }
+
+    .nav-bar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        margin-top: -28px;
+        position: absolute;
+        border: 1px solid red;
+    }
+
+    .search {
+        margin-left: 943px;
+        margin-top: -7px;
+    }
+
+    .language_switcher {
+        margin-left: 1007.45px;
+    }
+
+    .theme_switcher {
+        margin-left: 1130px;
+        margin-top: -5px;
+    }
+
+    .language {
+        margin-left: 1015px;
+    }
+
+    .language_scroll {
+        margin-left: 970px;
+        margin-top: -40px;
+    }
+
+    .buttom-connect img {
+        display: flex;
+        width: 100px;
+        border: 5px solid red;
+        margin-left: 900px;
+        font-size: 20px;
+    }
+}
