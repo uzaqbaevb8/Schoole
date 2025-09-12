@@ -1,6 +1,6 @@
 .admin-sidebar ul {
-    width: 220px;
-    padding: 20px;
+    width: auto;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     gap: 15px;

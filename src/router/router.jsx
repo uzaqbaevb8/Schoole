@@ -26,6 +26,9 @@ import Schedule from '../pages/Schedule/schedule'
 import Vacansy from '../pages/Vacansy/vacansy';
 import Position from '../pages/Position/Position'
 import School from '../pages/School/School'
+import About from '../pages/About/About'
+import Login from '../auth/Login'
+import Register from '../auth/Register'
 
 
 
@@ -57,8 +60,20 @@ export const router = createBrowserRouter([
             {
                 path: '/Support',
                 element: <Support />
+            },
+            {
+                path: '/About',
+                element: <About />
             }
         ]
+    },
+    {
+        path: "login",
+        element: <Login />
+    },
+    {
+        path: "register",
+        element: <Register />
     },
     {
         path: '/admin',

@@ -1,56 +1,44 @@
-import { Sun, Menu, ChevronDown, Globe, Search, User } from 'lucide-react'
-import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
 import './Header.css';
+import { Search, Globe, Sun } from 'lucide-react';
+import { Link } from 'react-router-dom';
+function Header() {
 
-
-
-export const Header = () => {
     return (
-        <div>
-            <div className='container'>
-                <div className='header'>
-                    <div className='logo'>
-                        <div className='logo-img'>
-                            <img src='./public/logo.svg' className='logo_2'></img>
-                        </div>
-                        <div className='logo-text'>40-mektep</div>
-                    </div>
-                    <nav className='nav-bar'>
-                        <ul className='menu'>
-                            <li><NavLink to="/">Home</NavLink></li>
-                            <li><NavLink to="/education"> школе</NavLink></li>
-                            <li><NavLink to="/training">Обучение</NavLink></li>
-                            <li><NavLink to="/rules">Правила</NavLink></li>
-                            <li><NavLink to="/news">Новости</NavLink></li>
-                            <li><NavLink to="/support">Поддержка</NavLink></li>
-                        </ul>
-                    </nav>
-                    <div className='header-right'>
-                        <div className='search'>
-                            <Search />
-                        </div>
-                        <div className='language_switcher'>
-                            <Globe />
-                        </div>
-                        <div>
-                            <ul className='language'>Русский</ul>
-                        </div>
-                        <div className='language_scroll'>
-                            <ChevronDown />
-                        </div>
-                        <div className='mobil_menu'>
-                            <Menu />
-                        </div>
-                        <div className='theme_switcher'>
-                            <Sun />
-                        </div>
-                        <div className='buttom-Admin'>
-                            <Link to={'admin'}><User /></Link>
-                        </div>
-                    </div >
-                </div >
-            </div >
-        </div >
-    )
+        <header>
+            <div className="left">
+                <div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div className="logo">
+                    <div className="logo-icon">40</div>
+                    <span className="logo-text">school</span>
+                </div>
+                <nav className='menu'>
+                    <a href="/">Home</a>
+                    <a href="/About">О школе</a>
+                    <a href="/Training">Обучение</a>
+                    <a href="/Rules">Правила</a>
+                    <a href="/News">Новости</a>
+                    <a href="/Support">Поддержка</a>
+                </nav>
+            </div>
+            <div className="right">
+                <Sun size={18} className="icon" />
+                <div className='language'>
+                    <img src="./public/Language Switcher.svg"></img>
+                    <select>
+                        <option value="ru">Русский</option>
+                        <option value="en">English</option>
+                        <option value="uz">Oʻzbekcha</option>
+                        <option value="QR">Qaraqalpaqsha</option>
+                    </select>
+                </div>
+                <button className="contact-btn">login</button>
+            </div>
+        </header>
+    );
 }
+
+export default Header;

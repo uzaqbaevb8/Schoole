@@ -4,7 +4,7 @@ import './Home.css'
 const Home = () => {
   return (
     <div className='container'>
-      <div className='main-conainer'>
+      <div className='main-container'>
         <div className='main'>
           <div className='main-text'>
             <h1>Добро
@@ -42,9 +42,7 @@ const Home = () => {
             <h2>Последние
               новости
             </h2>
-            <button>
-              Смотреть все
-            </button>
+            <button>Смотреть все</button>
           </div>
           <div className='section-cards'>
             <div className='section-cards-item'>
@@ -169,9 +167,6 @@ const Home = () => {
           <div className='About_our_school-image'>
             <img src='./public/image of our school.jpg' alt='image of our school.jpg' />
           </div>
-          <div className='About_our_school-image_Gradient'>
-            <img src='./public/About_our_school-image_Gradient.png' alt='' />
-          </div>
           <div className='About_our_school-text'>
             <h1>О нашей школе</h1>
             <p>Наша школа предоставляет
@@ -269,15 +264,16 @@ const Home = () => {
             <h2>Photo Gallery</h2>
             <button>View All Photos</button>
           </div>
-          <div className='View_All_Photos'>
-            <img src="./public/Students in classroom.png" alt="Students in classroom.png" />
-            <img src='./public/Science laboratory.png' alt='Scince Labaratory.png' />
-            <img src='./public/Sports activities.png' alt='Sports activities.png' />
-            <img src='./public/Arts and crafts.png' alt='Arts and crafts.png' />
-            <img src='./public/Gallery_Arts_and_crafts.png' alt='Gallery_Arts_and_crafts.png' />
-            <img src='./public/School library.png' alt='School library.png' />
-          </div>
         </div>
+        <div className='View_All_Photos'>
+          <img src="/Students in classroom.png" alt="Students in classroom" />
+          <img src="/Science laboratory.png" alt="Science Laboratory" />
+          <img src="/Sports activities.png" alt="Sports activities" />
+          <img src="/Arts and crafts.png" alt="Arts and crafts" />
+          <img src="/Gallery_Arts_and_crafts.png" alt="Gallery Arts and crafts" />
+          <img src="/School library.png" alt="School library" />
+        </div>
+
         <div className='footer'>
           <div className='footer-logo'>
             <img src='./public/logo.svg' alt='School Logo' />
