@@ -8,7 +8,7 @@
 .container {
     width: 100%;
     max-width: 1440px;
-    padding: 20px 24px; /* Consolidated padding */
+    padding: 20px 24px;
     margin: 0 auto;
 }
 
@@ -69,7 +69,7 @@
     margin-top: -20px;
     width: 49.69px;
     height: 16px;
-    font-weight: 500; /* Fixed invalid font-style */
+    font-weight: 500;
     font-size: 15px;
     line-height: 16px;
 }

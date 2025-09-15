@@ -48,7 +48,7 @@ const Home = () => {
             <div className='section-cards-item'>
               <img src='./public/school winners.png' alt='school winners.png' />
             </div>
-            <div className='section-csrdas-data'>
+            <div className='section-cards-data'>
               <img src='public/data-icons.svg' alt='data-icons' />
               <p>5 мая 2025</p>
             </div>
@@ -178,21 +178,23 @@ const Home = () => {
               учеников.
             </p>
           </div>
-          <div className='About_our_school-text-link'>
-            <img src='./public/link_Students.svg' alt='link_Students' />
-            <p>Учеников</p>
-          </div>
-          <div className='About_our_school-text-link_2'>
-            <img src='./public/link_Teachers.svg' alt='link_Teachers' />
-            <p>Учителей</p>
-          </div>
-          <div className='About_our_school-text-link_3'>
-            <img src='./public/link_Classes.svg' alt='link_Classes' />
-            <p>Классов</p>
-          </div>
-          <div className='About_our_school-text-link_4'>
-            <img src='./public/link_Years of experience.svg' alt='link_Years of experience.svg' />
-            <p>Лет опыта</p>
+          <div className='About_our_school-link'>
+            <div className='About_our_school-text-link'>
+              <p>500+</p>
+              <button>Учеников</button>
+            </div>
+            <div className='About_our_school-text-link_2'>
+              <p>50%</p>
+              <button>Учителей</button>
+            </div>
+            <div className='About_our_school-text-link_3'>
+              <p>20+</p>
+              <button>Классов</button>
+            </div>
+            <div className='About_our_school-text-link_4'>
+              <p>25+</p>
+              <button>Лет опыта</button>
+            </div>
           </div>
           <div className='About_our_school-text-link_Learn_more_about_us'>
             <p>Узнать больше о нас</p>
